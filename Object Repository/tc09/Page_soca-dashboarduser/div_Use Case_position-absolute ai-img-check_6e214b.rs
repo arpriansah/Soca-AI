@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Use Case_position-absolute ai-img-check_6e214b</name>
+   <tag></tag>
+   <elementGuidId>c985bd1a-2c7b-4f3f-98c4-cecf8d11daa2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ai-tour-dashboard-3']/div/div/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.position-absolute.ai-img-check-use-case</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f385f4d4-ccdb-4f7d-b061-d24748ebfe25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>position-absolute ai-img-check-use-case</value>
+      <webElementGuid>d2869d85-8663-4a5e-ba00-49a5b5ba7775</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ai-tour-dashboard-3&quot;)/div[@class=&quot;ai-scroll-horizontal&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-5 col-sm-12 py-1&quot;]/div[@class=&quot;card ai-card-image-opt&quot;]/div[1]/div[@class=&quot;position-absolute ai-img-check-use-case&quot;]</value>
+      <webElementGuid>8971b2a1-6157-4eb8-945a-b47b2b92ae61</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ai-tour-dashboard-3']/div/div/div/div/div/div</value>
+      <webElementGuid>414c7ebb-4c01-45b5-b6eb-6bcf5b685a7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Use Case'])[1]/following::div[6]</value>
+      <webElementGuid>160ac980-a699-4394-8081-4d8fb8cc39e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Soca Ganita'])[1]/following::div[8]</value>
+      <webElementGuid>611daed9-8332-4529-9626-1649d6bc93d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proctoring'])[1]/preceding::div[2]</value>
+      <webElementGuid>f77f4efa-92af-4295-ad91-896edfac5361</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AI-powered online exam with high security to achieve better integrity.'])[1]/preceding::div[2]</value>
+      <webElementGuid>14b1d0fe-ebdd-40e4-9b53-4e8f0b0c8351</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/div/div/div/div/div</value>
+      <webElementGuid>8e6dc5b4-5328-4f38-9dd1-cfca40fca2dc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

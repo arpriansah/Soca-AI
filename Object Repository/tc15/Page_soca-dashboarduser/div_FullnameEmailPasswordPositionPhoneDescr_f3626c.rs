@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_FullnameEmailPasswordPositionPhoneDescr_f3626c</name>
+   <tag></tag>
+   <elementGuidId>8fcdc25e-8fcb-4d03-8bcd-9e6625075b80</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/form/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.section-form-login.container-fluid.mt-5.w-lg-50.w-sm-100 > div.row > div.col-12</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f666880e-258b-4c7e-83fe-1535bd92cdb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-12</value>
+      <webElementGuid>5fa5cb27-27a9-479b-9bdc-5334559fc81a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>FullnameEmailPasswordPositionPhoneDescriptionTypeIndividualCompany I agree to SOCA Master Services Agreement and acknowledge SOCA Privacy Policy.</value>
+      <webElementGuid>cb45b536-efa5-4249-85f8-b720081c62d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;home&quot;]/form[1]/div[@class=&quot;section-form-login container-fluid mt-5 w-lg-50 w-sm-100&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]</value>
+      <webElementGuid>161202e5-af66-4b4d-b4ec-cbf599af9838</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/form/div/div/div</value>
+      <webElementGuid>559b19fd-205b-4160-be7c-5b7b6edb9328</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Create your account'])[1]/following::div[3]</value>
+      <webElementGuid>3f521d7f-7f15-43dd-9de1-dd42ae65a7ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div</value>
+      <webElementGuid>ba488b26-5cf2-4329-a416-140f378999db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'FullnameEmailPasswordPositionPhoneDescriptionTypeIndividualCompany I agree to SOCA Master Services Agreement and acknowledge SOCA Privacy Policy.' or . = 'FullnameEmailPasswordPositionPhoneDescriptionTypeIndividualCompany I agree to SOCA Master Services Agreement and acknowledge SOCA Privacy Policy.')]</value>
+      <webElementGuid>c21374d3-59b7-4975-a9c1-84d7116a8212</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FR_01" time="33.27" tests="4" failures="0" errors="0">
+   <testsuite name="FR_01" tests="4" failures="0" errors="0" time="33.27" skipped="0" timestamp="2022-07-15 10:53:17" hostname="ASUS - LAPTOP-U8BGHACE" id="Test Suites/FR_01">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Telkom University\\SEMESTER 7\\KP\\Magang - Birutekno\\QC\\Soca-AI\\Reports\\20220715_105313\\FR_01\\20220715_105314"/>
+         <property name="logFiles" value="E:\\Telkom University\\SEMESTER 7\\KP\\Magang - Birutekno\\QC\\Soca-AI\\Reports\\20220715_105313\\FR_01\\20220715_105314\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-U8BGHACE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="browser" value="Chrome 103.0.5060.114"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="e7e5ed9d40be6190a7a3661bb1354f77"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_01" time="10.479" classname="Test Cases/TC_01" status="PASSED">
+         <system-out><![CDATA[2022-07-15 10:53:17 - [TEST_CASE][PASSED] - Test Cases/TC_01: Test Cases/TC_01
+
+2022-07-15 10:53:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-15 10:53:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-15 10:53:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-15 10:53:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-15 10:53:20 - [TEST_STEP][PASSED] - navigateToUrl("https://soca.ai/home"): Navigate to 'https://soca.ai/home' successfully
+
+2022-07-15 10:53:22 - [MESSAGE][PASSED] - Navigate to 'https://soca.ai/home' successfully
+
+2022-07-15 10:53:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc01/Page_soca.ai/a_Sign In")): Object: 'Object Repository/tc01/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-15 10:53:24 - [MESSAGE][PASSED] - Object: 'Object Repository/tc01/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-15 10:53:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc01/Page_soca-dashboarduser/input_Email_form-control"), "kp3skp.dev@gmail.com"): Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc01/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-15 10:53:24 - [MESSAGE][PASSED] - Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc01/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-15 10:53:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/tc01/Page_soca-dashboarduser/input_Password_form-control mb-2"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/tc01/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-15 10:53:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/tc01/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-15 10:53:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/tc01/Page_soca-dashboarduser/input_Password_form-control mb-2"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/tc01/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-15 10:53:25 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/tc01/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-15 10:53:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc01/Page_soca-dashboarduser/button_OK")): Object: 'Object Repository/tc01/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-15 10:53:26 - [MESSAGE][PASSED] - Object: 'Object Repository/tc01/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-15 10:53:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-15 10:53:27 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_02" time="7.582" classname="Test Cases/TC_02" status="PASSED">
+         <system-out><![CDATA[2022-07-15 10:53:27 - [TEST_CASE][PASSED] - Test Cases/TC_02: Test Cases/TC_02
+
+2022-07-15 10:53:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-15 10:53:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-15 10:53:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-15 10:53:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-15 10:53:29 - [TEST_STEP][PASSED] - navigateToUrl("https://soca.ai/home"): Navigate to 'https://soca.ai/home' successfully
+
+2022-07-15 10:53:30 - [MESSAGE][PASSED] - Navigate to 'https://soca.ai/home' successfully
+
+2022-07-15 10:53:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc02/Page_soca.ai/a_Sign In")): Object: 'Object Repository/tc02/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-15 10:53:32 - [MESSAGE][PASSED] - Object: 'Object Repository/tc02/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-15 10:53:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc02/Page_soca-dashboarduser/input_Email_form-control"), "kp3skp.dev@gmail.com"): Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc02/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-15 10:53:33 - [MESSAGE][PASSED] - Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc02/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-15 10:53:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/tc02/Page_soca-dashboarduser/input_Password_form-control mb-2"), "nbPRAawFRnE="): Text ****** has been set on object 'Object Repository/tc02/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-15 10:53:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/tc02/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-15 10:53:33 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/tc02/Page_soca-dashboarduser/input_Password_form-control mb-2"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/tc02/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-15 10:53:33 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/tc02/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-15 10:53:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc02/Page_soca-dashboarduser/button_OK")): Object: 'Object Repository/tc02/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-15 10:53:34 - [MESSAGE][PASSED] - Object: 'Object Repository/tc02/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-15 10:53:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-15 10:53:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_03" time="7.529" classname="Test Cases/TC_03" status="PASSED">
+         <system-out><![CDATA[2022-07-15 10:53:35 - [TEST_CASE][PASSED] - Test Cases/TC_03: Test Cases/TC_03
+
+2022-07-15 10:53:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-15 10:53:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-15 10:53:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-15 10:53:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-15 10:53:36 - [TEST_STEP][PASSED] - navigateToUrl("https://soca.ai/home"): Navigate to 'https://soca.ai/home' successfully
+
+2022-07-15 10:53:37 - [MESSAGE][PASSED] - Navigate to 'https://soca.ai/home' successfully
+
+2022-07-15 10:53:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc03/Page_soca.ai/a_Sign In")): Object: 'Object Repository/tc03/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-15 10:53:40 - [MESSAGE][PASSED] - Object: 'Object Repository/tc03/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-15 10:53:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc03/Page_soca-dashboarduser/input_Email_form-control"), "qwerty@gmail.com"): Text 'qwerty@gmail.com' is set on object 'Object Repository/tc03/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-15 10:53:40 - [MESSAGE][PASSED] - Text 'qwerty@gmail.com' is set on object 'Object Repository/tc03/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-15 10:53:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/tc03/Page_soca-dashboarduser/input_Password_form-control mb-2"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/tc03/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-15 10:53:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/tc03/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-15 10:53:41 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/tc03/Page_soca-dashboarduser/input_Password_form-control mb-2"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/tc03/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-15 10:53:41 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/tc03/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-15 10:53:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc03/Page_soca-dashboarduser/button_OK")): Object: 'Object Repository/tc03/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-15 10:53:42 - [MESSAGE][PASSED] - Object: 'Object Repository/tc03/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-15 10:53:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-15 10:53:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_04" time="7.416" classname="Test Cases/TC_04" status="PASSED">
+         <system-out><![CDATA[2022-07-15 10:53:42 - [TEST_CASE][PASSED] - Test Cases/TC_04: Test Cases/TC_04
+
+2022-07-15 10:53:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-15 10:53:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-15 10:53:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-15 10:53:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-15 10:53:44 - [TEST_STEP][PASSED] - navigateToUrl("https://soca.ai/home"): Navigate to 'https://soca.ai/home' successfully
+
+2022-07-15 10:53:45 - [MESSAGE][PASSED] - Navigate to 'https://soca.ai/home' successfully
+
+2022-07-15 10:53:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc04/Page_soca.ai/a_Sign In")): Object: 'Object Repository/tc04/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-15 10:53:47 - [MESSAGE][PASSED] - Object: 'Object Repository/tc04/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-15 10:53:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc04/Page_soca-dashboarduser/input_Email_form-control"), "qwerty@gmail.com"): Text 'qwerty@gmail.com' is set on object 'Object Repository/tc04/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-15 10:53:48 - [MESSAGE][PASSED] - Text 'qwerty@gmail.com' is set on object 'Object Repository/tc04/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-15 10:53:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/tc04/Page_soca-dashboarduser/input_Password_form-control mb-2"), "nbPRAawFRnE="): Text ****** has been set on object 'Object Repository/tc04/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-15 10:53:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/tc04/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-15 10:53:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/tc04/Page_soca-dashboarduser/input_Password_form-control mb-2"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/tc04/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-15 10:53:49 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/tc04/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-15 10:53:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc04/Page_soca-dashboarduser/button_OK")): Object: 'Object Repository/tc04/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-15 10:53:49 - [MESSAGE][PASSED] - Object: 'Object Repository/tc04/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-15 10:53:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-15 10:53:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-15 10:53:17 - [TEST_SUITE][PASSED] - FR_01: Test Cases/TC_04]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
