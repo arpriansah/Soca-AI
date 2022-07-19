@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC_24</name>
+   <name>TC_26</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>92d63109-c69f-49fc-a951-e618d549ac38</testCaseGuid>
+   <testCaseGuid>39d4d4ca-ad4f-4b99-9b3c-cf0d39f290a0</testCaseGuid>
 </TestCaseEntity>
