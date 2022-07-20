@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_KP3SKP kp3skp.devgmail.comsortAnalytics_2e7142</name>
+   <tag></tag>
+   <elementGuidId>97054378-f69e-48d8-8e3e-3ddd4ec60ecd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.main-wrapper</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f8626b04-1131-42cf-aff5-03c3f4df76c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>main-wrapper</value>
+      <webElementGuid>79fe8439-5a30-42be-b02f-84cf26e08d19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>KP3SKP kp3skp.dev@gmail.comsortAnalyticspersonMaster UserseventMaster EventscheduleSchedulepersonCandidategraphic_eqLiveActivitysubjectReportgraphic_eqEvaluationmenuTest pay as you go failedlogoutMaster EventsEvent NameEvent TypeDescriptionSubmit Display  102550100 Data  Search: No (Click to sort Ascending)Event Name (Click to sort Ascending)Description (Click to sort Ascending)Event Type (Click to sort Ascending)Created Date (Click to sort Ascending)Action (Click to sort Ascending) 1UjianKalkulusSemester 20-7-2022, 8:15 am  2testes 12-7-2022, 1:35 pm  3uasuas 12-7-2022, 9:44 am «‹1›»</value>
+      <webElementGuid>6fe3eec6-4e16-4e24-a4ce-f84354556745</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-wrapper&quot;]</value>
+      <webElementGuid>a072959e-3800-4145-ae30-7d91a2ead5c8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div</value>
+      <webElementGuid>21338206-2cf4-4d68-9c92-c19f2fa17f2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div</value>
+      <webElementGuid>035e6d59-f9e4-4a71-83b1-5a0d03382b80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'KP3SKP kp3skp.dev@gmail.comsortAnalyticspersonMaster UserseventMaster EventscheduleSchedulepersonCandidategraphic_eqLiveActivitysubjectReportgraphic_eqEvaluationmenuTest pay as you go failedlogoutMaster EventsEvent NameEvent TypeDescriptionSubmit Display  102550100 Data  Search: No (Click to sort Ascending)Event Name (Click to sort Ascending)Description (Click to sort Ascending)Event Type (Click to sort Ascending)Created Date (Click to sort Ascending)Action (Click to sort Ascending) 1UjianKalkulusSemester 20-7-2022, 8:15 am  2testes 12-7-2022, 1:35 pm  3uasuas 12-7-2022, 9:44 am «‹1›»' or . = 'KP3SKP kp3skp.dev@gmail.comsortAnalyticspersonMaster UserseventMaster EventscheduleSchedulepersonCandidategraphic_eqLiveActivitysubjectReportgraphic_eqEvaluationmenuTest pay as you go failedlogoutMaster EventsEvent NameEvent TypeDescriptionSubmit Display  102550100 Data  Search: No (Click to sort Ascending)Event Name (Click to sort Ascending)Description (Click to sort Ascending)Event Type (Click to sort Ascending)Created Date (Click to sort Ascending)Action (Click to sort Ascending) 1UjianKalkulusSemester 20-7-2022, 8:15 am  2testes 12-7-2022, 1:35 pm  3uasuas 12-7-2022, 9:44 am «‹1›»')]</value>
+      <webElementGuid>2db08806-65f6-4238-b758-e3815a2de60e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

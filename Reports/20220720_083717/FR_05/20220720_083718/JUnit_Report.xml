@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FR_05" time="173.254" tests="4" failures="0" errors="0">
+   <testsuite name="FR_05" tests="4" failures="0" errors="0" time="173.254" skipped="0" timestamp="2022-07-20 08:37:21" hostname="ASUS - LAPTOP-U8BGHACE" id="Test Suites/FR_05">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Telkom University\\SEMESTER 7\\KP\\Magang - Birutekno\\QA\\Soca-AI\\Reports\\20220720_083717\\FR_05\\20220720_083718"/>
+         <property name="logFiles" value="E:\\Telkom University\\SEMESTER 7\\KP\\Magang - Birutekno\\QA\\Soca-AI\\Reports\\20220720_083717\\FR_05\\20220720_083718\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ASUS - LAPTOP-U8BGHACE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="browser" value="Chrome 103.0.5060.114"/>
+         <property name="hostAddress" value="192.168.0.5"/>
+         <property name="sessionId" value="5b9860b404534a04a030a8889da04b16"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_34" time="48.133" classname="Test Cases/TC_34" status="PASSED">
+         <system-out><![CDATA[2022-07-20 08:37:22 - [TEST_CASE][PASSED] - Test Cases/TC_34: Test Cases/TC_34
+
+2022-07-20 08:37:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-20 08:37:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-20 08:37:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-20 08:37:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-20 08:37:25 - [TEST_STEP][PASSED] - navigateToUrl("https://soca.ai/home"): Navigate to 'https://soca.ai/home' successfully
+
+2022-07-20 08:37:54 - [MESSAGE][PASSED] - Navigate to 'https://soca.ai/home' successfully
+
+2022-07-20 08:37:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc34/Page_soca.ai/a_Sign In")): Object: 'Object Repository/tc34/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-20 08:37:57 - [MESSAGE][PASSED] - Object: 'Object Repository/tc34/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-20 08:37:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc34/Page_soca-dashboarduser/input_Email_form-control"), "kp3skp.dev@gmail.com"): Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc34/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-20 08:37:58 - [MESSAGE][PASSED] - Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc34/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-20 08:37:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/tc34/Page_soca-dashboarduser/input_Password_form-control mb-2"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/tc34/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-20 08:37:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/tc34/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-20 08:37:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc34/Page_soca-dashboarduser/button_Sign In")): Object: 'Object Repository/tc34/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-20 08:37:59 - [MESSAGE][PASSED] - Object: 'Object Repository/tc34/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-20 08:37:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc34/Page_soca-dashboarduser/button_OK")): Object: 'Object Repository/tc34/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-20 08:38:00 - [MESSAGE][PASSED] - Object: 'Object Repository/tc34/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-20 08:38:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc34/Page_soca-dashboarduser/a_Projects")): Object: 'Object Repository/tc34/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-20 08:38:02 - [MESSAGE][PASSED] - Object: 'Object Repository/tc34/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-20 08:38:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc34/Page_soca-dashboarduser/button_Dashboard")): Object: 'Object Repository/tc34/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-20 08:38:03 - [MESSAGE][PASSED] - Object: 'Object Repository/tc34/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-20 08:38:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc34/Page_soca-ai-proctoring-dashboard/span_Master Event")): Object: 'Object Repository/tc34/Page_soca-ai-proctoring-dashboard/span_Master Event' is clicked on
+
+2022-07-20 08:38:06 - [MESSAGE][PASSED] - Object: 'Object Repository/tc34/Page_soca-ai-proctoring-dashboard/span_Master Event' is clicked on
+
+2022-07-20 08:38:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc34/Page_soca-ai-proctoring-dashboard/input_Event Name_event_name"), "Ujian"): Text 'Ujian' is set on object 'Object Repository/tc34/Page_soca-ai-proctoring-dashboard/input_Event Name_event_name'
+
+2022-07-20 08:38:07 - [MESSAGE][PASSED] - Text 'Ujian' is set on object 'Object Repository/tc34/Page_soca-ai-proctoring-dashboard/input_Event Name_event_name'
+
+2022-07-20 08:38:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc34/Page_soca-ai-proctoring-dashboard/input_Event Type_event_type"), "Semester"): Text 'Semester' is set on object 'Object Repository/tc34/Page_soca-ai-proctoring-dashboard/input_Event Type_event_type'
+
+2022-07-20 08:38:08 - [MESSAGE][PASSED] - Text 'Semester' is set on object 'Object Repository/tc34/Page_soca-ai-proctoring-dashboard/input_Event Type_event_type'
+
+2022-07-20 08:38:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc34/Page_soca-ai-proctoring-dashboard/textarea_Description_description"), "Kalkulus"): Text 'Kalkulus' is set on object 'Object Repository/tc34/Page_soca-ai-proctoring-dashboard/textarea_Description_description'
+
+2022-07-20 08:38:09 - [MESSAGE][PASSED] - Text 'Kalkulus' is set on object 'Object Repository/tc34/Page_soca-ai-proctoring-dashboard/textarea_Description_description'
+
+2022-07-20 08:38:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc34/Page_soca-ai-proctoring-dashboard/button_Submit")): Object: 'Object Repository/tc34/Page_soca-ai-proctoring-dashboard/button_Submit' is clicked on
+
+2022-07-20 08:38:09 - [MESSAGE][PASSED] - Object: 'Object Repository/tc34/Page_soca-ai-proctoring-dashboard/button_Submit' is clicked on
+
+2022-07-20 08:38:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-20 08:38:10 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_35" time="25.102" classname="Test Cases/TC_35" status="PASSED">
+         <system-out><![CDATA[2022-07-20 08:38:10 - [TEST_CASE][PASSED] - Test Cases/TC_35: Test Cases/TC_35
+
+2022-07-20 08:38:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-20 08:38:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-20 08:38:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-20 08:38:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-20 08:38:12 - [TEST_STEP][PASSED] - navigateToUrl("https://soca.ai/home"): Navigate to 'https://soca.ai/home' successfully
+
+2022-07-20 08:38:13 - [MESSAGE][PASSED] - Navigate to 'https://soca.ai/home' successfully
+
+2022-07-20 08:38:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc35/Page_soca.ai/a_Sign In")): Object: 'Object Repository/tc35/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-20 08:38:23 - [MESSAGE][PASSED] - Object: 'Object Repository/tc35/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-20 08:38:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc35/Page_soca-dashboarduser/input_Email_form-control"), "kp3skp.dev@gmail.com"): Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc35/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-20 08:38:23 - [MESSAGE][PASSED] - Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc35/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-20 08:38:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/tc35/Page_soca-dashboarduser/input_Password_form-control mb-2"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/tc35/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-20 08:38:24 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/tc35/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-20 08:38:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc35/Page_soca-dashboarduser/button_Sign In")): Object: 'Object Repository/tc35/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-20 08:38:24 - [MESSAGE][PASSED] - Object: 'Object Repository/tc35/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-20 08:38:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc35/Page_soca-dashboarduser/button_OK")): Object: 'Object Repository/tc35/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-20 08:38:25 - [MESSAGE][PASSED] - Object: 'Object Repository/tc35/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-20 08:38:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc35/Page_soca-dashboarduser/a_Projects")): Object: 'Object Repository/tc35/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-20 08:38:27 - [MESSAGE][PASSED] - Object: 'Object Repository/tc35/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-20 08:38:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc35/Page_soca-dashboarduser/button_Dashboard")): Object: 'Object Repository/tc35/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-20 08:38:28 - [MESSAGE][PASSED] - Object: 'Object Repository/tc35/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-20 08:38:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc35/Page_soca-ai-proctoring-dashboard/span_Master Event")): Object: 'Object Repository/tc35/Page_soca-ai-proctoring-dashboard/span_Master Event' is clicked on
+
+2022-07-20 08:38:31 - [MESSAGE][PASSED] - Object: 'Object Repository/tc35/Page_soca-ai-proctoring-dashboard/span_Master Event' is clicked on
+
+2022-07-20 08:38:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc35/Page_soca-ai-proctoring-dashboard/input_Event Name_event_name"), STOP_ON_FAILURE): Object: 'Object Repository/tc35/Page_soca-ai-proctoring-dashboard/input_Event Name_event_name' is clicked on
+
+2022-07-20 08:38:32 - [MESSAGE][PASSED] - Object: 'Object Repository/tc35/Page_soca-ai-proctoring-dashboard/input_Event Name_event_name' is clicked on
+
+2022-07-20 08:38:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc35/Page_soca-ai-proctoring-dashboard/input_Event Type_event_type"), "Semester"): Text 'Semester' is set on object 'Object Repository/tc35/Page_soca-ai-proctoring-dashboard/input_Event Type_event_type'
+
+2022-07-20 08:38:33 - [MESSAGE][PASSED] - Text 'Semester' is set on object 'Object Repository/tc35/Page_soca-ai-proctoring-dashboard/input_Event Type_event_type'
+
+2022-07-20 08:38:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc35/Page_soca-ai-proctoring-dashboard/textarea_Description_description"), "Kalkulus"): Text 'Kalkulus' is set on object 'Object Repository/tc35/Page_soca-ai-proctoring-dashboard/textarea_Description_description'
+
+2022-07-20 08:38:34 - [MESSAGE][PASSED] - Text 'Kalkulus' is set on object 'Object Repository/tc35/Page_soca-ai-proctoring-dashboard/textarea_Description_description'
+
+2022-07-20 08:38:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc35/Page_soca-ai-proctoring-dashboard/button_Submit")): Object: 'Object Repository/tc35/Page_soca-ai-proctoring-dashboard/button_Submit' is clicked on
+
+2022-07-20 08:38:34 - [MESSAGE][PASSED] - Object: 'Object Repository/tc35/Page_soca-ai-proctoring-dashboard/button_Submit' is clicked on
+
+2022-07-20 08:38:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-20 08:38:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_36" time="59.036" classname="Test Cases/TC_36" status="PASSED">
+         <system-out><![CDATA[2022-07-20 08:38:35 - [TEST_CASE][PASSED] - Test Cases/TC_36: Test Cases/TC_36
+
+2022-07-20 08:38:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-20 08:38:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-20 08:38:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-20 08:38:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-20 08:38:37 - [TEST_STEP][PASSED] - navigateToUrl("https://soca.ai/home"): Navigate to 'https://soca.ai/home' successfully
+
+2022-07-20 08:39:19 - [MESSAGE][PASSED] - Navigate to 'https://soca.ai/home' successfully
+
+2022-07-20 08:39:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc36/Page_soca.ai/a_Sign In")): Object: 'Object Repository/tc36/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-20 08:39:22 - [MESSAGE][PASSED] - Object: 'Object Repository/tc36/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-20 08:39:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc36/Page_soca-dashboarduser/input_Email_form-control"), "kp3skp.dev@gmail.com"): Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc36/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-20 08:39:23 - [MESSAGE][PASSED] - Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc36/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-20 08:39:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/tc36/Page_soca-dashboarduser/input_Password_form-control mb-2"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/tc36/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-20 08:39:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/tc36/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-20 08:39:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc36/Page_soca-dashboarduser/button_Sign In")): Object: 'Object Repository/tc36/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-20 08:39:23 - [MESSAGE][PASSED] - Object: 'Object Repository/tc36/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-20 08:39:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc36/Page_soca-dashboarduser/button_OK")): Object: 'Object Repository/tc36/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-20 08:39:24 - [MESSAGE][PASSED] - Object: 'Object Repository/tc36/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-20 08:39:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc36/Page_soca-dashboarduser/a_Projects")): Object: 'Object Repository/tc36/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-20 08:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/tc36/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-20 08:39:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc36/Page_soca-dashboarduser/button_Dashboard")): Object: 'Object Repository/tc36/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-20 08:39:28 - [MESSAGE][PASSED] - Object: 'Object Repository/tc36/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-20 08:39:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc36/Page_soca-ai-proctoring-dashboard/span_Master Event")): Object: 'Object Repository/tc36/Page_soca-ai-proctoring-dashboard/span_Master Event' is clicked on
+
+2022-07-20 08:39:30 - [MESSAGE][PASSED] - Object: 'Object Repository/tc36/Page_soca-ai-proctoring-dashboard/span_Master Event' is clicked on
+
+2022-07-20 08:39:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc36/Page_soca-ai-proctoring-dashboard/input_Event Name_event_name"), "Ujian"): Text 'Ujian' is set on object 'Object Repository/tc36/Page_soca-ai-proctoring-dashboard/input_Event Name_event_name'
+
+2022-07-20 08:39:31 - [MESSAGE][PASSED] - Text 'Ujian' is set on object 'Object Repository/tc36/Page_soca-ai-proctoring-dashboard/input_Event Name_event_name'
+
+2022-07-20 08:39:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc36/Page_soca-ai-proctoring-dashboard/input_Event Type_event_type"), STOP_ON_FAILURE): Object: 'Object Repository/tc36/Page_soca-ai-proctoring-dashboard/input_Event Type_event_type' is clicked on
+
+2022-07-20 08:39:32 - [MESSAGE][PASSED] - Object: 'Object Repository/tc36/Page_soca-ai-proctoring-dashboard/input_Event Type_event_type' is clicked on
+
+2022-07-20 08:39:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc36/Page_soca-ai-proctoring-dashboard/textarea_Description_description"), "Kalkulus"): Text 'Kalkulus' is set on object 'Object Repository/tc36/Page_soca-ai-proctoring-dashboard/textarea_Description_description'
+
+2022-07-20 08:39:33 - [MESSAGE][PASSED] - Text 'Kalkulus' is set on object 'Object Repository/tc36/Page_soca-ai-proctoring-dashboard/textarea_Description_description'
+
+2022-07-20 08:39:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc36/Page_soca-ai-proctoring-dashboard/button_Submit")): Object: 'Object Repository/tc36/Page_soca-ai-proctoring-dashboard/button_Submit' is clicked on
+
+2022-07-20 08:39:33 - [MESSAGE][PASSED] - Object: 'Object Repository/tc36/Page_soca-ai-proctoring-dashboard/button_Submit' is clicked on
+
+2022-07-20 08:39:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-20 08:39:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_37" time="40.615" classname="Test Cases/TC_37" status="PASSED">
+         <system-out><![CDATA[2022-07-20 08:39:34 - [TEST_CASE][PASSED] - Test Cases/TC_37: Test Cases/TC_37
+
+2022-07-20 08:39:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-20 08:39:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-20 08:39:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-20 08:39:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-20 08:39:36 - [TEST_STEP][PASSED] - navigateToUrl("https://soca.ai/home"): Navigate to 'https://soca.ai/home' successfully
+
+2022-07-20 08:39:59 - [MESSAGE][PASSED] - Navigate to 'https://soca.ai/home' successfully
+
+2022-07-20 08:39:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc37/Page_soca.ai/a_Sign In")): Object: 'Object Repository/tc37/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-20 08:40:02 - [MESSAGE][PASSED] - Object: 'Object Repository/tc37/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-20 08:40:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc37/Page_soca-dashboarduser/input_Email_form-control"), "kp3skp.dev@gmail.com"): Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc37/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-20 08:40:03 - [MESSAGE][PASSED] - Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc37/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-20 08:40:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/tc37/Page_soca-dashboarduser/input_Password_form-control mb-2"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/tc37/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-20 08:40:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/tc37/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-20 08:40:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc37/Page_soca-dashboarduser/button_Sign In")): Object: 'Object Repository/tc37/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-20 08:40:04 - [MESSAGE][PASSED] - Object: 'Object Repository/tc37/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-20 08:40:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc37/Page_soca-dashboarduser/button_OK")): Object: 'Object Repository/tc37/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-20 08:40:05 - [MESSAGE][PASSED] - Object: 'Object Repository/tc37/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-20 08:40:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc37/Page_soca-dashboarduser/a_Projects")): Object: 'Object Repository/tc37/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-20 08:40:07 - [MESSAGE][PASSED] - Object: 'Object Repository/tc37/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-20 08:40:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc37/Page_soca-dashboarduser/button_Dashboard")): Object: 'Object Repository/tc37/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-20 08:40:08 - [MESSAGE][PASSED] - Object: 'Object Repository/tc37/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-20 08:40:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc37/Page_soca-ai-proctoring-dashboard/span_Master Event")): Object: 'Object Repository/tc37/Page_soca-ai-proctoring-dashboard/span_Master Event' is clicked on
+
+2022-07-20 08:40:11 - [MESSAGE][PASSED] - Object: 'Object Repository/tc37/Page_soca-ai-proctoring-dashboard/span_Master Event' is clicked on
+
+2022-07-20 08:40:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc37/Page_soca-ai-proctoring-dashboard/input_Event Name_event_name"), "Ujian"): Text 'Ujian' is set on object 'Object Repository/tc37/Page_soca-ai-proctoring-dashboard/input_Event Name_event_name'
+
+2022-07-20 08:40:12 - [MESSAGE][PASSED] - Text 'Ujian' is set on object 'Object Repository/tc37/Page_soca-ai-proctoring-dashboard/input_Event Name_event_name'
+
+2022-07-20 08:40:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc37/Page_soca-ai-proctoring-dashboard/input_Event Type_event_type"), "Semester"): Text 'Semester' is set on object 'Object Repository/tc37/Page_soca-ai-proctoring-dashboard/input_Event Type_event_type'
+
+2022-07-20 08:40:13 - [MESSAGE][PASSED] - Text 'Semester' is set on object 'Object Repository/tc37/Page_soca-ai-proctoring-dashboard/input_Event Type_event_type'
+
+2022-07-20 08:40:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc36/Page_soca-ai-proctoring-dashboard/textarea_Description_description"), STOP_ON_FAILURE): Object: 'Object Repository/tc36/Page_soca-ai-proctoring-dashboard/textarea_Description_description' is clicked on
+
+2022-07-20 08:40:13 - [MESSAGE][PASSED] - Object: 'Object Repository/tc36/Page_soca-ai-proctoring-dashboard/textarea_Description_description' is clicked on
+
+2022-07-20 08:40:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc37/Page_soca-ai-proctoring-dashboard/button_Submit")): Object: 'Object Repository/tc37/Page_soca-ai-proctoring-dashboard/button_Submit' is clicked on
+
+2022-07-20 08:40:14 - [MESSAGE][PASSED] - Object: 'Object Repository/tc37/Page_soca-ai-proctoring-dashboard/button_Submit' is clicked on
+
+2022-07-20 08:40:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-20 08:40:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-20 08:37:21 - [TEST_SUITE][PASSED] - FR_05: Test Cases/TC_37]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
