@@ -6,12 +6,12 @@
    <elementGuidId>e575fd0b-872b-4b42-b664-a72c0e322d1a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='description']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#description</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='description']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>07a9fcb7-2b9f-46ee-9aa6-821d3ba463d0</webElementGuid>
+      <webElementGuid>c52226ef-a8b7-4c8c-adc3-3cc372b203af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>663bbcbe-e1f3-4349-9d20-e3377da7c6ca</webElementGuid>
+      <webElementGuid>dabb27f6-5e18-4d3c-add3-f43eb7f16076</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,10 +38,58 @@
       <name>id</name>
       <type>Main</type>
       <value>description</value>
-      <webElementGuid>f0628047-a092-4e17-ae5d-9bf3c06a2bec</webElementGuid>
+      <webElementGuid>e5e504ca-4191-47a4-9c46-83c6ccdcc0a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Schedule Name</value>
+      <webElementGuid>382eb171-aa46-419f-a0a3-6ec788cf4fbd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>a668db4f-b291-4e65-b6c3-753ef2dfcd12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;description&quot;)</value>
+      <webElementGuid>2c6ee22e-db13-47ca-8853-55571cefd827</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>07a9fcb7-2b9f-46ee-9aa6-821d3ba463d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>663bbcbe-e1f3-4349-9d20-e3377da7c6ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>description</value>
+      <webElementGuid>f0628047-a092-4e17-ae5d-9bf3c06a2bec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
@@ -70,7 +118,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='description']</value>
-      <webElementGuid>204e11e3-6385-4c17-a2bc-7664f1a58099</webElementGuid>
+      <webElementGuid>dddb5860-273c-4c6f-bf91-7f6b643bcd36</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +126,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[3]/div/div[2]/div/div/div/form/div[2]/div/input</value>
-      <webElementGuid>b5abbd08-1aa4-465b-ad43-8fe0c838f8db</webElementGuid>
+      <webElementGuid>30a26f8c-5bcd-4179-97bc-e65b9be05581</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +134,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/input</value>
-      <webElementGuid>7975dd19-3e0e-489e-be14-f890e7c3998d</webElementGuid>
+      <webElementGuid>aec2fb70-2820-49bd-a645-49c242c4b694</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +142,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'description' and @placeholder = 'Schedule Name']</value>
-      <webElementGuid>9cddee7a-6d85-4b76-baae-64130855fa2b</webElementGuid>
+      <webElementGuid>4b2e23ad-7257-4d7f-9970-12fa386fdd33</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

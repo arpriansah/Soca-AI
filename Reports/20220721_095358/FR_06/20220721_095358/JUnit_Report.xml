@@ -1,0 +1,2124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FR_06" time="390.915" tests="11" failures="7" errors="0">
+   <testsuite name="FR_06" tests="11" failures="7" errors="0" time="390.915" skipped="0" timestamp="2022-07-21 09:54:00" hostname="ASUS - LAPTOP-U8BGHACE" id="Test Suites/FR_06">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Telkom University\\SEMESTER 7\\KP\\Magang - Birutekno\\QA\\Soca-AI\\Reports\\20220721_095358\\FR_06\\20220721_095358"/>
+         <property name="logFiles" value="E:\\Telkom University\\SEMESTER 7\\KP\\Magang - Birutekno\\QA\\Soca-AI\\Reports\\20220721_095358\\FR_06\\20220721_095358\\execution0.log"/>
+         <property name="attachments" value="E:\\Telkom University\\SEMESTER 7\\KP\\Magang - Birutekno\\QA\\Soca-AI\\Reports\\20220721_095358\\FR_06\\20220721_095358\\1658372088352.png, E:\\Telkom University\\SEMESTER 7\\KP\\Magang - Birutekno\\QA\\Soca-AI\\Reports\\20220721_095358\\FR_06\\20220721_095358\\1658372134925.png, E:\\Telkom University\\SEMESTER 7\\KP\\Magang - Birutekno\\QA\\Soca-AI\\Reports\\20220721_095358\\FR_06\\20220721_095358\\1658372182135.png, E:\\Telkom University\\SEMESTER 7\\KP\\Magang - Birutekno\\QA\\Soca-AI\\Reports\\20220721_095358\\FR_06\\20220721_095358\\1658372230157.png, E:\\Telkom University\\SEMESTER 7\\KP\\Magang - Birutekno\\QA\\Soca-AI\\Reports\\20220721_095358\\FR_06\\20220721_095358\\1658372279222.png, E:\\Telkom University\\SEMESTER 7\\KP\\Magang - Birutekno\\QA\\Soca-AI\\Reports\\20220721_095358\\FR_06\\20220721_095358\\1658372332748.png, E:\\Telkom University\\SEMESTER 7\\KP\\Magang - Birutekno\\QA\\Soca-AI\\Reports\\20220721_095358\\FR_06\\20220721_095358\\1658372349127.png"/>
+         <property name="hostName" value="ASUS - LAPTOP-U8BGHACE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="browser" value="Chrome 103.0.5060.134"/>
+         <property name="hostAddress" value="192.168.0.5"/>
+         <property name="sessionId" value="9a85a49820c576a76d3188012636cf21"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_38" time="47.989" classname="Test Cases/TC_38" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_38 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_38.run(TC_38:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__117__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-07-21 09:54:00 - [TEST_CASE][FAILED] - Test Cases/TC_38: Test Cases/TC_38 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_38.run(TC_38:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__117__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-07-21 09:54:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-21 09:54:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-21 09:54:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-21 09:54:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-21 09:54:02 - [TEST_STEP][PASSED] - navigateToUrl("https://soca.ai/home"): Navigate to 'https://soca.ai/home' successfully
+
+2022-07-21 09:54:04 - [MESSAGE][PASSED] - Navigate to 'https://soca.ai/home' successfully
+
+2022-07-21 09:54:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc38/Page_soca.ai/a_Sign In")): Object: 'Object Repository/tc38/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-21 09:54:06 - [MESSAGE][PASSED] - Object: 'Object Repository/tc38/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-21 09:54:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc38/Page_soca-dashboarduser/input_Email_form-control"), "kp3skp.dev@gmail.com"): Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc38/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-21 09:54:06 - [MESSAGE][PASSED] - Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc38/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-21 09:54:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/tc38/Page_soca-dashboarduser/input_Password_form-control mb-2"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/tc38/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-21 09:54:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/tc38/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-21 09:54:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc38/Page_soca-dashboarduser/button_Sign In")): Object: 'Object Repository/tc38/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-21 09:54:07 - [MESSAGE][PASSED] - Object: 'Object Repository/tc38/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-21 09:54:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc38/Page_soca-dashboarduser/button_OK")): Object: 'Object Repository/tc38/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-21 09:54:08 - [MESSAGE][PASSED] - Object: 'Object Repository/tc38/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-21 09:54:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc38/Page_soca-dashboarduser/a_Projects")): Object: 'Object Repository/tc38/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-21 09:54:10 - [MESSAGE][PASSED] - Object: 'Object Repository/tc38/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-21 09:54:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc38/Page_soca-dashboarduser/button_Dashboard")): Object: 'Object Repository/tc38/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-21 09:54:11 - [MESSAGE][PASSED] - Object: 'Object Repository/tc38/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-21 09:54:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc38/Page_soca-ai-proctoring-dashboard/span_Schedule")): Object: 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/span_Schedule' is clicked on
+
+2022-07-21 09:54:13 - [MESSAGE][PASSED] - Object: 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/span_Schedule' is clicked on
+
+2022-07-21 09:54:13 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/tc38/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas"), "62d75991aed847c7e3028120", true): All options with value '62d75991aed847c7e3028120' are selected in object 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas'  using regular expression
+
+2022-07-21 09:54:15 - [MESSAGE][PASSED] - All options with value '62d75991aed847c7e3028120' are selected in object 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas'  using regular expression
+
+2022-07-21 09:54:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/tc38/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration"), "time", true): All options with value 'time' are selected in object 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration'  using regular expression
+
+2022-07-21 09:54:16 - [MESSAGE][PASSED] - All options with value 'time' are selected in object 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration'  using regular expression
+
+2022-07-21 09:54:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc38/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description"), "Sesi pagi"): Text 'Sesi pagi' is set on object 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description'
+
+2022-07-21 09:54:16 - [MESSAGE][PASSED] - Text 'Sesi pagi' is set on object 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description'
+
+2022-07-21 09:54:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc38/Page_soca-ai-proctoring-dashboard/label_No date selected")): Object: 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/label_No date selected' is clicked on
+
+2022-07-21 09:54:17 - [MESSAGE][PASSED] - Object: 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/label_No date selected' is clicked on
+
+2022-07-21 09:54:17 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/tc38/Page_soca-ai-proctoring-dashboard/span_21")): Unable to click on object 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/span_21' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_38.run(TC_38:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__117__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1658282315525.run(Script1658282315525.groovy:52)
+	... 13 more
+)
+
+2022-07-21 09:54:48 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__BVID__117__cell-2022-07-21_']/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-21 09:54:48 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/span_21' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_38.run(TC_38:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__117__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1658282315525.run(Script1658282315525.groovy:52)
+	... 13 more
+)
+[[ATTACHMENT|E:\\Telkom University\\SEMESTER 7\\KP\\Magang - Birutekno\\QA\\Soca-AI\\Reports\\20220721_095358\\FR_06\\20220721_095358\\1658372088352.png]]]]></system-out>
+         <system-err><![CDATA[2022-07-21 09:54:00 - [TEST_CASE][FAILED] - Test Cases/TC_38: Test Cases/TC_38 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_38.run(TC_38:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__117__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_39" time="46.52" classname="Test Cases/TC_39" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_39 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc39/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_39.run(TC_39:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc39/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__119__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-07-21 09:54:48 - [TEST_CASE][FAILED] - Test Cases/TC_39: Test Cases/TC_39 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc39/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_39.run(TC_39:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc39/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__119__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-07-21 09:54:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-21 09:54:48 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-07-21 09:54:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-21 09:54:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-21 09:54:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-21 09:54:50 - [TEST_STEP][PASSED] - navigateToUrl("https://soca.ai/home"): Navigate to 'https://soca.ai/home' successfully
+
+2022-07-21 09:54:51 - [MESSAGE][PASSED] - Navigate to 'https://soca.ai/home' successfully
+
+2022-07-21 09:54:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc39/Page_soca.ai/a_Sign In")): Object: 'Object Repository/tc39/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-21 09:54:53 - [MESSAGE][PASSED] - Object: 'Object Repository/tc39/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-21 09:54:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc39/Page_soca-dashboarduser/input_Email_form-control"), "kp3skp.dev@gmail.com"): Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc39/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-21 09:54:54 - [MESSAGE][PASSED] - Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc39/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-21 09:54:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/tc39/Page_soca-dashboarduser/input_Password_form-control mb-2"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/tc39/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-21 09:54:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/tc39/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-21 09:54:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc39/Page_soca-dashboarduser/button_Sign In")): Object: 'Object Repository/tc39/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-21 09:54:54 - [MESSAGE][PASSED] - Object: 'Object Repository/tc39/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-21 09:54:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc39/Page_soca-dashboarduser/button_OK")): Object: 'Object Repository/tc39/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-21 09:54:55 - [MESSAGE][PASSED] - Object: 'Object Repository/tc39/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-21 09:54:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc39/Page_soca-dashboarduser/a_Projects")): Object: 'Object Repository/tc39/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-21 09:54:57 - [MESSAGE][PASSED] - Object: 'Object Repository/tc39/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-21 09:54:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc39/Page_soca-dashboarduser/button_Dashboard")): Object: 'Object Repository/tc39/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-21 09:54:58 - [MESSAGE][PASSED] - Object: 'Object Repository/tc39/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-21 09:54:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc39/Page_soca-ai-proctoring-dashboard/span_Schedule")): Object: 'Object Repository/tc39/Page_soca-ai-proctoring-dashboard/span_Schedule' is clicked on
+
+2022-07-21 09:55:00 - [MESSAGE][PASSED] - Object: 'Object Repository/tc39/Page_soca-ai-proctoring-dashboard/span_Schedule' is clicked on
+
+2022-07-21 09:55:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc39/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas")): Object: 'Object Repository/tc39/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas' is clicked on
+
+2022-07-21 09:55:01 - [MESSAGE][PASSED] - Object: 'Object Repository/tc39/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas' is clicked on
+
+2022-07-21 09:55:01 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/tc39/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration"), "time", true): All options with value 'time' are selected in object 'Object Repository/tc39/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration'  using regular expression
+
+2022-07-21 09:55:02 - [MESSAGE][PASSED] - All options with value 'time' are selected in object 'Object Repository/tc39/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration'  using regular expression
+
+2022-07-21 09:55:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc39/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description"), "Sesi pagi"): Text 'Sesi pagi' is set on object 'Object Repository/tc39/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description'
+
+2022-07-21 09:55:03 - [MESSAGE][PASSED] - Text 'Sesi pagi' is set on object 'Object Repository/tc39/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description'
+
+2022-07-21 09:55:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc39/Page_soca-ai-proctoring-dashboard/label_No date selected")): Object: 'Object Repository/tc39/Page_soca-ai-proctoring-dashboard/label_No date selected' is clicked on
+
+2022-07-21 09:55:03 - [MESSAGE][PASSED] - Object: 'Object Repository/tc39/Page_soca-ai-proctoring-dashboard/label_No date selected' is clicked on
+
+2022-07-21 09:55:03 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/tc39/Page_soca-ai-proctoring-dashboard/span_21")): Unable to click on object 'Object Repository/tc39/Page_soca-ai-proctoring-dashboard/span_21' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc39/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_39.run(TC_39:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc39/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__119__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1658286001672.run(Script1658286001672.groovy:51)
+	... 13 more
+)
+
+2022-07-21 09:55:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__BVID__119__cell-2022-07-21_']/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-21 09:55:35 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/tc39/Page_soca-ai-proctoring-dashboard/span_21' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc39/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_39.run(TC_39:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc39/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__119__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1658286001672.run(Script1658286001672.groovy:51)
+	... 13 more
+)
+[[ATTACHMENT|E:\\Telkom University\\SEMESTER 7\\KP\\Magang - Birutekno\\QA\\Soca-AI\\Reports\\20220721_095358\\FR_06\\20220721_095358\\1658372134925.png]]]]></system-out>
+         <system-err><![CDATA[2022-07-21 09:54:48 - [TEST_CASE][FAILED] - Test Cases/TC_39: Test Cases/TC_39 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc39/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_39.run(TC_39:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc39/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__119__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_40" time="47.211" classname="Test Cases/TC_40" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_40 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc40/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_40.run(TC_40:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc40/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__119__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-07-21 09:55:35 - [TEST_CASE][FAILED] - Test Cases/TC_40: Test Cases/TC_40 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc40/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_40.run(TC_40:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc40/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__119__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-07-21 09:55:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-21 09:55:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-07-21 09:55:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-21 09:55:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-21 09:55:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-21 09:55:37 - [TEST_STEP][PASSED] - navigateToUrl("https://soca.ai/home"): Navigate to 'https://soca.ai/home' successfully
+
+2022-07-21 09:55:37 - [MESSAGE][PASSED] - Navigate to 'https://soca.ai/home' successfully
+
+2022-07-21 09:55:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc40/Page_soca.ai/a_Sign In")): Object: 'Object Repository/tc40/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-21 09:55:39 - [MESSAGE][PASSED] - Object: 'Object Repository/tc40/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-21 09:55:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc40/Page_soca-dashboarduser/input_Email_form-control"), "kp3skp.dev@gmail.com"): Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc40/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-21 09:55:40 - [MESSAGE][PASSED] - Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc40/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-21 09:55:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/tc40/Page_soca-dashboarduser/input_Password_form-control mb-2"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/tc40/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-21 09:55:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/tc40/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-21 09:55:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc40/Page_soca-dashboarduser/button_Sign In")): Object: 'Object Repository/tc40/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-21 09:55:41 - [MESSAGE][PASSED] - Object: 'Object Repository/tc40/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-21 09:55:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc40/Page_soca-dashboarduser/button_OK")): Object: 'Object Repository/tc40/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-21 09:55:42 - [MESSAGE][PASSED] - Object: 'Object Repository/tc40/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-21 09:55:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc40/Page_soca-dashboarduser/a_Projects")): Object: 'Object Repository/tc40/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-21 09:55:44 - [MESSAGE][PASSED] - Object: 'Object Repository/tc40/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-21 09:55:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc40/Page_soca-dashboarduser/button_Dashboard")): Object: 'Object Repository/tc40/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-21 09:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/tc40/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-21 09:55:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc40/Page_soca-ai-proctoring-dashboard/span_Schedule")): Object: 'Object Repository/tc40/Page_soca-ai-proctoring-dashboard/span_Schedule' is clicked on
+
+2022-07-21 09:55:47 - [MESSAGE][PASSED] - Object: 'Object Repository/tc40/Page_soca-ai-proctoring-dashboard/span_Schedule' is clicked on
+
+2022-07-21 09:55:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/tc40/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas"), "62d75991aed847c7e3028120", true): All options with value '62d75991aed847c7e3028120' are selected in object 'Object Repository/tc40/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas'  using regular expression
+
+2022-07-21 09:55:49 - [MESSAGE][PASSED] - All options with value '62d75991aed847c7e3028120' are selected in object 'Object Repository/tc40/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas'  using regular expression
+
+2022-07-21 09:55:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/tc40/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration"), "time", true): All options with value 'time' are selected in object 'Object Repository/tc40/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration'  using regular expression
+
+2022-07-21 09:55:50 - [MESSAGE][PASSED] - All options with value 'time' are selected in object 'Object Repository/tc40/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration'  using regular expression
+
+2022-07-21 09:55:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc40/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description"), STOP_ON_FAILURE): Object: 'Object Repository/tc40/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description' is clicked on
+
+2022-07-21 09:55:50 - [MESSAGE][PASSED] - Object: 'Object Repository/tc40/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description' is clicked on
+
+2022-07-21 09:55:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc40/Page_soca-ai-proctoring-dashboard/label_No date selected")): Object: 'Object Repository/tc40/Page_soca-ai-proctoring-dashboard/label_No date selected' is clicked on
+
+2022-07-21 09:55:51 - [MESSAGE][PASSED] - Object: 'Object Repository/tc40/Page_soca-ai-proctoring-dashboard/label_No date selected' is clicked on
+
+2022-07-21 09:55:51 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/tc40/Page_soca-ai-proctoring-dashboard/span_21")): Unable to click on object 'Object Repository/tc40/Page_soca-ai-proctoring-dashboard/span_21' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc40/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_40.run(TC_40:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc40/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__119__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1658290534745.run(Script1658290534745.groovy:52)
+	... 13 more
+)
+
+2022-07-21 09:56:22 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__BVID__119__cell-2022-07-21_']/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-21 09:56:22 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/tc40/Page_soca-ai-proctoring-dashboard/span_21' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc40/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_40.run(TC_40:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc40/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__119__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1658290534745.run(Script1658290534745.groovy:52)
+	... 13 more
+)
+[[ATTACHMENT|E:\\Telkom University\\SEMESTER 7\\KP\\Magang - Birutekno\\QA\\Soca-AI\\Reports\\20220721_095358\\FR_06\\20220721_095358\\1658372182135.png]]]]></system-out>
+         <system-err><![CDATA[2022-07-21 09:55:35 - [TEST_CASE][FAILED] - Test Cases/TC_40: Test Cases/TC_40 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc40/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_40.run(TC_40:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc40/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__119__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_41" time="48.068" classname="Test Cases/TC_41" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_41 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc41/Page_soca-ai-proctoring-dashboard/span_25'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_41.run(TC_41:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc41/Page_soca-ai-proctoring-dashboard/span_25' located by '//div[@id='__BVID__122__cell-2022-07-25_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-07-21 09:56:22 - [TEST_CASE][FAILED] - Test Cases/TC_41: Test Cases/TC_41 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc41/Page_soca-ai-proctoring-dashboard/span_25'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_41.run(TC_41:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc41/Page_soca-ai-proctoring-dashboard/span_25' located by '//div[@id='__BVID__122__cell-2022-07-25_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-07-21 09:56:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-21 09:56:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-07-21 09:56:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-21 09:56:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-21 09:56:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-21 09:56:24 - [TEST_STEP][PASSED] - navigateToUrl("https://soca.ai/"): Navigate to 'https://soca.ai/' successfully
+
+2022-07-21 09:56:25 - [MESSAGE][PASSED] - Navigate to 'https://soca.ai/' successfully
+
+2022-07-21 09:56:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc41/Page_soca.ai/a_Sign In")): Object: 'Object Repository/tc41/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-21 09:56:27 - [MESSAGE][PASSED] - Object: 'Object Repository/tc41/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-21 09:56:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc41/Page_soca-dashboarduser/input_Email_form-control"), "kp3skp.dev@gmail.com"): Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc41/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-21 09:56:28 - [MESSAGE][PASSED] - Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc41/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-21 09:56:28 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/tc41/Page_soca-dashboarduser/input_Password_form-control mb-2"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/tc41/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-21 09:56:28 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/tc41/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-21 09:56:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc41/Page_soca-dashboarduser/button_Sign In")): Object: 'Object Repository/tc41/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-21 09:56:29 - [MESSAGE][PASSED] - Object: 'Object Repository/tc41/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-21 09:56:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc41/Page_soca-dashboarduser/button_OK")): Object: 'Object Repository/tc41/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-21 09:56:29 - [MESSAGE][PASSED] - Object: 'Object Repository/tc41/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-21 09:56:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc41/Page_soca-dashboarduser/a_Projects")): Object: 'Object Repository/tc41/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-21 09:56:31 - [MESSAGE][PASSED] - Object: 'Object Repository/tc41/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-21 09:56:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc41/Page_soca-dashboarduser/button_Dashboard")): Object: 'Object Repository/tc41/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-21 09:56:32 - [MESSAGE][PASSED] - Object: 'Object Repository/tc41/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-21 09:56:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc41/Page_soca-ai-proctoring-dashboard/span_Schedule")): Object: 'Object Repository/tc41/Page_soca-ai-proctoring-dashboard/span_Schedule' is clicked on
+
+2022-07-21 09:56:34 - [MESSAGE][PASSED] - Object: 'Object Repository/tc41/Page_soca-ai-proctoring-dashboard/span_Schedule' is clicked on
+
+2022-07-21 09:56:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/tc41/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas"), "62d75991aed847c7e3028120", true): All options with value '62d75991aed847c7e3028120' are selected in object 'Object Repository/tc41/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas'  using regular expression
+
+2022-07-21 09:56:36 - [MESSAGE][PASSED] - All options with value '62d75991aed847c7e3028120' are selected in object 'Object Repository/tc41/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas'  using regular expression
+
+2022-07-21 09:56:36 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/tc41/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration"), "time", true): All options with value 'time' are selected in object 'Object Repository/tc41/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration'  using regular expression
+
+2022-07-21 09:56:37 - [MESSAGE][PASSED] - All options with value 'time' are selected in object 'Object Repository/tc41/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration'  using regular expression
+
+2022-07-21 09:56:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc41/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description"), "Sesi pagi"): Text 'Sesi pagi' is set on object 'Object Repository/tc41/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description'
+
+2022-07-21 09:56:38 - [MESSAGE][PASSED] - Text 'Sesi pagi' is set on object 'Object Repository/tc41/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description'
+
+2022-07-21 09:56:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc41/Page_soca-ai-proctoring-dashboard/label_No date selected")): Object: 'Object Repository/tc41/Page_soca-ai-proctoring-dashboard/label_No date selected' is clicked on
+
+2022-07-21 09:56:38 - [MESSAGE][PASSED] - Object: 'Object Repository/tc41/Page_soca-ai-proctoring-dashboard/label_No date selected' is clicked on
+
+2022-07-21 09:56:38 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/tc41/Page_soca-ai-proctoring-dashboard/span_25")): Unable to click on object 'Object Repository/tc41/Page_soca-ai-proctoring-dashboard/span_25' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc41/Page_soca-ai-proctoring-dashboard/span_25'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_41.run(TC_41:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc41/Page_soca-ai-proctoring-dashboard/span_25' located by '//div[@id='__BVID__122__cell-2022-07-25_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1658287910507.run(Script1658287910507.groovy:52)
+	... 13 more
+)
+
+2022-07-21 09:57:10 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__BVID__122__cell-2022-07-25_']/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-21 09:57:10 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/tc41/Page_soca-ai-proctoring-dashboard/span_25' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc41/Page_soca-ai-proctoring-dashboard/span_25'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_41.run(TC_41:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc41/Page_soca-ai-proctoring-dashboard/span_25' located by '//div[@id='__BVID__122__cell-2022-07-25_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1658287910507.run(Script1658287910507.groovy:52)
+	... 13 more
+)
+[[ATTACHMENT|E:\\Telkom University\\SEMESTER 7\\KP\\Magang - Birutekno\\QA\\Soca-AI\\Reports\\20220721_095358\\FR_06\\20220721_095358\\1658372230157.png]]]]></system-out>
+         <system-err><![CDATA[2022-07-21 09:56:22 - [TEST_CASE][FAILED] - Test Cases/TC_41: Test Cases/TC_41 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc41/Page_soca-ai-proctoring-dashboard/span_25'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_41.run(TC_41:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc41/Page_soca-ai-proctoring-dashboard/span_25' located by '//div[@id='__BVID__122__cell-2022-07-25_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_42" time="49.01" classname="Test Cases/TC_42" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_42 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc42/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_42.run(TC_42:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc42/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__119__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-07-21 09:57:10 - [TEST_CASE][FAILED] - Test Cases/TC_42: Test Cases/TC_42 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc42/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_42.run(TC_42:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc42/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__119__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-07-21 09:57:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-21 09:57:10 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-07-21 09:57:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-21 09:57:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-21 09:57:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-21 09:57:13 - [TEST_STEP][PASSED] - navigateToUrl("https://soca.ai/home"): Navigate to 'https://soca.ai/home' successfully
+
+2022-07-21 09:57:14 - [MESSAGE][PASSED] - Navigate to 'https://soca.ai/home' successfully
+
+2022-07-21 09:57:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc42/Page_soca.ai/a_Sign In")): Object: 'Object Repository/tc42/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-21 09:57:15 - [MESSAGE][PASSED] - Object: 'Object Repository/tc42/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-21 09:57:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc42/Page_soca-dashboarduser/input_Email_form-control"), "kp3skp.dev@gmail.com"): Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc42/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-21 09:57:16 - [MESSAGE][PASSED] - Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc42/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-21 09:57:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/tc42/Page_soca-dashboarduser/input_Password_form-control mb-2"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/tc42/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-21 09:57:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/tc42/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-21 09:57:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc42/Page_soca-dashboarduser/button_Sign In")): Object: 'Object Repository/tc42/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-21 09:57:17 - [MESSAGE][PASSED] - Object: 'Object Repository/tc42/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-21 09:57:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc42/Page_soca-dashboarduser/button_OK")): Object: 'Object Repository/tc42/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-21 09:57:18 - [MESSAGE][PASSED] - Object: 'Object Repository/tc42/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-21 09:57:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc42/Page_soca-dashboarduser/a_Projects")): Object: 'Object Repository/tc42/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-21 09:57:20 - [MESSAGE][PASSED] - Object: 'Object Repository/tc42/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-21 09:57:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc42/Page_soca-dashboarduser/button_Dashboard")): Object: 'Object Repository/tc42/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-21 09:57:21 - [MESSAGE][PASSED] - Object: 'Object Repository/tc42/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-21 09:57:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc42/Page_soca-ai-proctoring-dashboard/span_Schedule")): Object: 'Object Repository/tc42/Page_soca-ai-proctoring-dashboard/span_Schedule' is clicked on
+
+2022-07-21 09:57:23 - [MESSAGE][PASSED] - Object: 'Object Repository/tc42/Page_soca-ai-proctoring-dashboard/span_Schedule' is clicked on
+
+2022-07-21 09:57:23 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/tc42/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas"), "62d75991aed847c7e3028120", true): All options with value '62d75991aed847c7e3028120' are selected in object 'Object Repository/tc42/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas'  using regular expression
+
+2022-07-21 09:57:25 - [MESSAGE][PASSED] - All options with value '62d75991aed847c7e3028120' are selected in object 'Object Repository/tc42/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas'  using regular expression
+
+2022-07-21 09:57:25 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/tc42/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration"), "time", true): All options with value 'time' are selected in object 'Object Repository/tc42/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration'  using regular expression
+
+2022-07-21 09:57:26 - [MESSAGE][PASSED] - All options with value 'time' are selected in object 'Object Repository/tc42/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration'  using regular expression
+
+2022-07-21 09:57:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc42/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description"), "Sesi pagi"): Text 'Sesi pagi' is set on object 'Object Repository/tc42/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description'
+
+2022-07-21 09:57:27 - [MESSAGE][PASSED] - Text 'Sesi pagi' is set on object 'Object Repository/tc42/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description'
+
+2022-07-21 09:57:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc42/Page_soca-ai-proctoring-dashboard/label_No date selected")): Object: 'Object Repository/tc42/Page_soca-ai-proctoring-dashboard/label_No date selected' is clicked on
+
+2022-07-21 09:57:27 - [MESSAGE][PASSED] - Object: 'Object Repository/tc42/Page_soca-ai-proctoring-dashboard/label_No date selected' is clicked on
+
+2022-07-21 09:57:27 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/tc42/Page_soca-ai-proctoring-dashboard/span_21")): Unable to click on object 'Object Repository/tc42/Page_soca-ai-proctoring-dashboard/span_21' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc42/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_42.run(TC_42:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc42/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__119__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1658288172631.run(Script1658288172631.groovy:52)
+	... 13 more
+)
+
+2022-07-21 09:57:59 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__BVID__119__cell-2022-07-21_']/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-21 09:57:59 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/tc42/Page_soca-ai-proctoring-dashboard/span_21' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc42/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_42.run(TC_42:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc42/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__119__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1658288172631.run(Script1658288172631.groovy:52)
+	... 13 more
+)
+[[ATTACHMENT|E:\\Telkom University\\SEMESTER 7\\KP\\Magang - Birutekno\\QA\\Soca-AI\\Reports\\20220721_095358\\FR_06\\20220721_095358\\1658372279222.png]]]]></system-out>
+         <system-err><![CDATA[2022-07-21 09:57:10 - [TEST_CASE][FAILED] - Test Cases/TC_42: Test Cases/TC_42 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc42/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_42.run(TC_42:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc42/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__119__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_43" time="53.589" classname="Test Cases/TC_43" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_43 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc43/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_43.run(TC_43:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc43/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__119__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-07-21 09:57:59 - [TEST_CASE][FAILED] - Test Cases/TC_43: Test Cases/TC_43 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc43/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_43.run(TC_43:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc43/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__119__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-07-21 09:57:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-21 09:57:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-07-21 09:58:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-21 09:58:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-21 09:58:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-21 09:58:01 - [TEST_STEP][PASSED] - navigateToUrl("https://soca.ai/home"): Navigate to 'https://soca.ai/home' successfully
+
+2022-07-21 09:58:02 - [MESSAGE][PASSED] - Navigate to 'https://soca.ai/home' successfully
+
+2022-07-21 09:58:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc43/Page_soca.ai/a_Sign In")): Object: 'Object Repository/tc43/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-21 09:58:03 - [MESSAGE][PASSED] - Object: 'Object Repository/tc43/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-21 09:58:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc43/Page_soca-dashboarduser/input_Email_form-control"), "kp3skp.dev@gmail.com"): Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc43/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-21 09:58:04 - [MESSAGE][PASSED] - Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc43/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-21 09:58:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/tc43/Page_soca-dashboarduser/input_Password_form-control mb-2"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/tc43/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-21 09:58:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/tc43/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-21 09:58:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc43/Page_soca-dashboarduser/button_Sign In")): Object: 'Object Repository/tc43/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-21 09:58:05 - [MESSAGE][PASSED] - Object: 'Object Repository/tc43/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-21 09:58:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc43/Page_soca-dashboarduser/button_OK")): Object: 'Object Repository/tc43/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-21 09:58:06 - [MESSAGE][PASSED] - Object: 'Object Repository/tc43/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-21 09:58:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc43/Page_soca-dashboarduser/a_Projects")): Object: 'Object Repository/tc43/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-21 09:58:13 - [MESSAGE][PASSED] - Object: 'Object Repository/tc43/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-21 09:58:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc43/Page_soca-dashboarduser/button_Dashboard")): Object: 'Object Repository/tc43/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-21 09:58:15 - [MESSAGE][PASSED] - Object: 'Object Repository/tc43/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-21 09:58:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc43/Page_soca-ai-proctoring-dashboard/span_Schedule")): Object: 'Object Repository/tc43/Page_soca-ai-proctoring-dashboard/span_Schedule' is clicked on
+
+2022-07-21 09:58:17 - [MESSAGE][PASSED] - Object: 'Object Repository/tc43/Page_soca-ai-proctoring-dashboard/span_Schedule' is clicked on
+
+2022-07-21 09:58:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/tc43/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas"), "62d75991aed847c7e3028120", true): All options with value '62d75991aed847c7e3028120' are selected in object 'Object Repository/tc43/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas'  using regular expression
+
+2022-07-21 09:58:19 - [MESSAGE][PASSED] - All options with value '62d75991aed847c7e3028120' are selected in object 'Object Repository/tc43/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas'  using regular expression
+
+2022-07-21 09:58:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/tc43/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration"), "time", true): All options with value 'time' are selected in object 'Object Repository/tc43/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration'  using regular expression
+
+2022-07-21 09:58:20 - [MESSAGE][PASSED] - All options with value 'time' are selected in object 'Object Repository/tc43/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration'  using regular expression
+
+2022-07-21 09:58:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc43/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description"), "Sesi pagi"): Text 'Sesi pagi' is set on object 'Object Repository/tc43/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description'
+
+2022-07-21 09:58:21 - [MESSAGE][PASSED] - Text 'Sesi pagi' is set on object 'Object Repository/tc43/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description'
+
+2022-07-21 09:58:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc43/Page_soca-ai-proctoring-dashboard/label_No date selected")): Object: 'Object Repository/tc43/Page_soca-ai-proctoring-dashboard/label_No date selected' is clicked on
+
+2022-07-21 09:58:21 - [MESSAGE][PASSED] - Object: 'Object Repository/tc43/Page_soca-ai-proctoring-dashboard/label_No date selected' is clicked on
+
+2022-07-21 09:58:21 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/tc43/Page_soca-ai-proctoring-dashboard/span_21")): Unable to click on object 'Object Repository/tc43/Page_soca-ai-proctoring-dashboard/span_21' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc43/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_43.run(TC_43:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc43/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__119__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1658288327397.run(Script1658288327397.groovy:52)
+	... 13 more
+)
+
+2022-07-21 09:58:52 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //div[@id='__BVID__119__cell-2022-07-21_']/span'. Please recheck the objects properties to make sure the desired element is located. 
+
+2022-07-21 09:58:52 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/tc43/Page_soca-ai-proctoring-dashboard/span_21' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc43/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_43.run(TC_43:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc43/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__119__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1658288327397.run(Script1658288327397.groovy:52)
+	... 13 more
+)
+[[ATTACHMENT|E:\\Telkom University\\SEMESTER 7\\KP\\Magang - Birutekno\\QA\\Soca-AI\\Reports\\20220721_095358\\FR_06\\20220721_095358\\1658372332748.png]]]]></system-out>
+         <system-err><![CDATA[2022-07-21 09:57:59 - [TEST_CASE][FAILED] - Test Cases/TC_43: Test Cases/TC_43 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc43/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_43.run(TC_43:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc43/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__119__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_44" time="16.296" classname="Test Cases/TC_44" status="FAILED">
+         <failure type="FAILED" message="Test Cases/TC_44 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc44/Page_soca-ai-proctoring-dashboard/span_Schedule'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_44.run(TC_44:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-U8BGHACE', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50150}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1eeab69d08f6ca491457dfdf95f35c70
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2022-07-21 09:58:52 - [TEST_CASE][FAILED] - Test Cases/TC_44: Test Cases/TC_44 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc44/Page_soca-ai-proctoring-dashboard/span_Schedule'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_44.run(TC_44:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-U8BGHACE', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50150}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1eeab69d08f6ca491457dfdf95f35c70
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2022-07-21 09:58:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-21 09:58:53 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-07-21 09:58:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-21 09:58:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-21 09:58:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-21 09:58:55 - [TEST_STEP][PASSED] - navigateToUrl("https://soca.ai/home"): Navigate to 'https://soca.ai/home' successfully
+
+2022-07-21 09:58:56 - [MESSAGE][PASSED] - Navigate to 'https://soca.ai/home' successfully
+
+2022-07-21 09:58:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc44/Page_soca.ai/a_Sign In")): Object: 'Object Repository/tc44/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-21 09:58:58 - [MESSAGE][PASSED] - Object: 'Object Repository/tc44/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-21 09:58:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc44/Page_soca-dashboarduser/input_Email_form-control"), "kp3skp.dev@gmail.com"): Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc44/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-21 09:58:59 - [MESSAGE][PASSED] - Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc44/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-21 09:58:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/tc44/Page_soca-dashboarduser/input_Password_form-control mb-2"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/tc44/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-21 09:59:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/tc44/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-21 09:59:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc44/Page_soca-dashboarduser/button_Sign In")): Object: 'Object Repository/tc44/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-21 09:59:00 - [MESSAGE][PASSED] - Object: 'Object Repository/tc44/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-21 09:59:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc44/Page_soca-dashboarduser/button_OK")): Object: 'Object Repository/tc44/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-21 09:59:02 - [MESSAGE][PASSED] - Object: 'Object Repository/tc44/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-21 09:59:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc44/Page_soca-dashboarduser/a_Projects")): Object: 'Object Repository/tc44/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-21 09:59:04 - [MESSAGE][PASSED] - Object: 'Object Repository/tc44/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-21 09:59:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc44/Page_soca-dashboarduser/button_Dashboard")): Object: 'Object Repository/tc44/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-21 09:59:05 - [MESSAGE][PASSED] - Object: 'Object Repository/tc44/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-21 09:59:05 - [TEST_STEP][PASSED] - switchToWindowTitle(""): Switched to window with title: ''
+
+2022-07-21 09:59:08 - [MESSAGE][PASSED] - Switched to window with title: ''
+
+2022-07-21 09:59:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc44/Page_/html_katalonfont-familymonospacefont-size13_6a6dcb")): Object: 'Object Repository/tc44/Page_/html_katalonfont-familymonospacefont-size13_6a6dcb' is clicked on
+
+2022-07-21 09:59:08 - [MESSAGE][PASSED] - Object: 'Object Repository/tc44/Page_/html_katalonfont-familymonospacefont-size13_6a6dcb' is clicked on
+
+2022-07-21 09:59:08 - [TEST_STEP][PASSED] - switchToWindowTitle("soca-ai-proctoring-dashboard"): Switched to window with title: 'soca-ai-proctoring-dashboard'
+
+2022-07-21 09:59:08 - [MESSAGE][PASSED] - Switched to window with title: 'soca-ai-proctoring-dashboard'
+
+2022-07-21 09:59:08 - [TEST_STEP][FAILED] - click(findTestObject("Object Repository/tc44/Page_soca-ai-proctoring-dashboard/span_Schedule")): Unable to click on object 'Object Repository/tc44/Page_soca-ai-proctoring-dashboard/span_Schedule' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc44/Page_soca-ai-proctoring-dashboard/span_Schedule'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_44.run(TC_44:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-U8BGHACE', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50150}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1eeab69d08f6ca491457dfdf95f35c70
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1658288499497.run(Script1658288499497.groovy:45)
+	... 13 more
+)
+
+2022-07-21 09:59:09 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/tc44/Page_soca-ai-proctoring-dashboard/span_Schedule' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc44/Page_soca-ai-proctoring-dashboard/span_Schedule'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_44.run(TC_44:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-U8BGHACE', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50150}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1eeab69d08f6ca491457dfdf95f35c70
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at Script1658288499497.run(Script1658288499497.groovy:45)
+	... 13 more
+)
+[[ATTACHMENT|E:\\Telkom University\\SEMESTER 7\\KP\\Magang - Birutekno\\QA\\Soca-AI\\Reports\\20220721_095358\\FR_06\\20220721_095358\\1658372349127.png]]]]></system-out>
+         <system-err><![CDATA[2022-07-21 09:58:52 - [TEST_CASE][FAILED] - Test Cases/TC_44: Test Cases/TC_44 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc44/Page_soca-ai-proctoring-dashboard/span_Schedule'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_44.run(TC_44:45)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=103.0.5060.134)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-U8BGHACE', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_282'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.134, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\ASUS\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:50150}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1eeab69d08f6ca491457dfdf95f35c70
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.lambda$new$0(EventFiringWebDriver.java:404)
+	at com.sun.proxy.$Proxy11.click(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.click(EventFiringWebDriver.java:417)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:67)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_45" time="24.614" classname="Test Cases/TC_45" status="PASSED">
+         <system-out><![CDATA[2022-07-21 09:59:09 - [TEST_CASE][PASSED] - Test Cases/TC_45: Test Cases/TC_45
+
+2022-07-21 09:59:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-21 09:59:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2022-07-21 09:59:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-21 09:59:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-21 09:59:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-21 09:59:11 - [TEST_STEP][PASSED] - navigateToUrl("https://soca.ai/home"): Navigate to 'https://soca.ai/home' successfully
+
+2022-07-21 09:59:12 - [MESSAGE][PASSED] - Navigate to 'https://soca.ai/home' successfully
+
+2022-07-21 09:59:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc45/Page_soca.ai/a_Sign In")): Object: 'Object Repository/tc45/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-21 09:59:18 - [MESSAGE][PASSED] - Object: 'Object Repository/tc45/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-21 09:59:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc45/Page_soca-dashboarduser/input_Email_form-control"), "kp3skp.dev@gmail.com"): Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc45/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-21 09:59:19 - [MESSAGE][PASSED] - Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc45/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-21 09:59:19 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/tc45/Page_soca-dashboarduser/input_Password_form-control mb-2"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/tc45/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-21 09:59:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/tc45/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-21 09:59:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc45/Page_soca-dashboarduser/button_Sign In")): Object: 'Object Repository/tc45/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-21 09:59:20 - [MESSAGE][PASSED] - Object: 'Object Repository/tc45/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-21 09:59:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc45/Page_soca-dashboarduser/button_OK")): Object: 'Object Repository/tc45/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-21 09:59:21 - [MESSAGE][PASSED] - Object: 'Object Repository/tc45/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-21 09:59:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc45/Page_soca-dashboarduser/a_Projects")): Object: 'Object Repository/tc45/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-21 09:59:24 - [MESSAGE][PASSED] - Object: 'Object Repository/tc45/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-21 09:59:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc45/Page_soca-dashboarduser/button_Dashboard")): Object: 'Object Repository/tc45/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-21 09:59:25 - [MESSAGE][PASSED] - Object: 'Object Repository/tc45/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-21 09:59:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc45/Page_soca-ai-proctoring-dashboard/span_Schedule")): Object: 'Object Repository/tc45/Page_soca-ai-proctoring-dashboard/span_Schedule' is clicked on
+
+2022-07-21 09:59:27 - [MESSAGE][PASSED] - Object: 'Object Repository/tc45/Page_soca-ai-proctoring-dashboard/span_Schedule' is clicked on
+
+2022-07-21 09:59:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/tc45/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas"), "62d75991aed847c7e3028120", true): All options with value '62d75991aed847c7e3028120' are selected in object 'Object Repository/tc45/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas'  using regular expression
+
+2022-07-21 09:59:29 - [MESSAGE][PASSED] - All options with value '62d75991aed847c7e3028120' are selected in object 'Object Repository/tc45/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas'  using regular expression
+
+2022-07-21 09:59:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/tc45/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration"), "duration", true): All options with value 'duration' are selected in object 'Object Repository/tc45/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration'  using regular expression
+
+2022-07-21 09:59:30 - [MESSAGE][PASSED] - All options with value 'duration' are selected in object 'Object Repository/tc45/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration'  using regular expression
+
+2022-07-21 09:59:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc45/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description"), "Sesi pagi"): Text 'Sesi pagi' is set on object 'Object Repository/tc45/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description'
+
+2022-07-21 09:59:31 - [MESSAGE][PASSED] - Text 'Sesi pagi' is set on object 'Object Repository/tc45/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description'
+
+2022-07-21 09:59:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc45/Page_soca-ai-proctoring-dashboard/input_Duration (minutes)_duration"), "60"): Text '60' is set on object 'Object Repository/tc45/Page_soca-ai-proctoring-dashboard/input_Duration (minutes)_duration'
+
+2022-07-21 09:59:31 - [MESSAGE][PASSED] - Text '60' is set on object 'Object Repository/tc45/Page_soca-ai-proctoring-dashboard/input_Duration (minutes)_duration'
+
+2022-07-21 09:59:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc45/Page_soca-ai-proctoring-dashboard/button_Submit")): Object: 'Object Repository/tc45/Page_soca-ai-proctoring-dashboard/button_Submit' is clicked on
+
+2022-07-21 09:59:32 - [MESSAGE][PASSED] - Object: 'Object Repository/tc45/Page_soca-ai-proctoring-dashboard/button_Submit' is clicked on
+
+2022-07-21 09:59:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc45/Page_soca-ai-proctoring-dashboard/button_OK")): Object: 'Object Repository/tc45/Page_soca-ai-proctoring-dashboard/button_OK' is clicked on
+
+2022-07-21 09:59:33 - [MESSAGE][PASSED] - Object: 'Object Repository/tc45/Page_soca-ai-proctoring-dashboard/button_OK' is clicked on
+
+2022-07-21 09:59:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-21 09:59:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_46" time="17.855" classname="Test Cases/TC_46" status="PASSED">
+         <system-out><![CDATA[2022-07-21 09:59:33 - [TEST_CASE][PASSED] - Test Cases/TC_46: Test Cases/TC_46
+
+2022-07-21 09:59:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-21 09:59:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-21 09:59:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-21 09:59:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-21 09:59:35 - [TEST_STEP][PASSED] - navigateToUrl("https://soca.ai/home"): Navigate to 'https://soca.ai/home' successfully
+
+2022-07-21 09:59:36 - [MESSAGE][PASSED] - Navigate to 'https://soca.ai/home' successfully
+
+2022-07-21 09:59:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc46/Page_soca.ai/a_Sign In")): Object: 'Object Repository/tc46/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-21 09:59:38 - [MESSAGE][PASSED] - Object: 'Object Repository/tc46/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-21 09:59:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc46/Page_soca-dashboarduser/input_Email_form-control"), "kp3skp.dev@gmail.com"): Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc46/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-21 09:59:38 - [MESSAGE][PASSED] - Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc46/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-21 09:59:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/tc46/Page_soca-dashboarduser/input_Password_form-control mb-2"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/tc46/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-21 09:59:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/tc46/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-21 09:59:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc46/Page_soca-dashboarduser/button_Sign In")): Object: 'Object Repository/tc46/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-21 09:59:39 - [MESSAGE][PASSED] - Object: 'Object Repository/tc46/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-21 09:59:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc46/Page_soca-dashboarduser/button_OK")): Object: 'Object Repository/tc46/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-21 09:59:40 - [MESSAGE][PASSED] - Object: 'Object Repository/tc46/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-21 09:59:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc46/Page_soca-dashboarduser/a_Projects")): Object: 'Object Repository/tc46/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-21 09:59:43 - [MESSAGE][PASSED] - Object: 'Object Repository/tc46/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-21 09:59:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc46/Page_soca-dashboarduser/button_Dashboard")): Object: 'Object Repository/tc46/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-21 09:59:44 - [MESSAGE][PASSED] - Object: 'Object Repository/tc46/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-21 09:59:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc46/Page_soca-ai-proctoring-dashboard/span_Schedule")): Object: 'Object Repository/tc46/Page_soca-ai-proctoring-dashboard/span_Schedule' is clicked on
+
+2022-07-21 09:59:46 - [MESSAGE][PASSED] - Object: 'Object Repository/tc46/Page_soca-ai-proctoring-dashboard/span_Schedule' is clicked on
+
+2022-07-21 09:59:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc46/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas")): Object: 'Object Repository/tc46/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas' is clicked on
+
+2022-07-21 09:59:47 - [MESSAGE][PASSED] - Object: 'Object Repository/tc46/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas' is clicked on
+
+2022-07-21 09:59:47 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/tc46/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration"), "duration", true): All options with value 'duration' are selected in object 'Object Repository/tc46/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration'  using regular expression
+
+2022-07-21 09:59:48 - [MESSAGE][PASSED] - All options with value 'duration' are selected in object 'Object Repository/tc46/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration'  using regular expression
+
+2022-07-21 09:59:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc46/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description"), "Sesi pagi"): Text 'Sesi pagi' is set on object 'Object Repository/tc46/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description'
+
+2022-07-21 09:59:49 - [MESSAGE][PASSED] - Text 'Sesi pagi' is set on object 'Object Repository/tc46/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description'
+
+2022-07-21 09:59:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc46/Page_soca-ai-proctoring-dashboard/input_Duration (minutes)_duration"), "60"): Text '60' is set on object 'Object Repository/tc46/Page_soca-ai-proctoring-dashboard/input_Duration (minutes)_duration'
+
+2022-07-21 09:59:49 - [MESSAGE][PASSED] - Text '60' is set on object 'Object Repository/tc46/Page_soca-ai-proctoring-dashboard/input_Duration (minutes)_duration'
+
+2022-07-21 09:59:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc46/Page_soca-ai-proctoring-dashboard/button_Submit")): Object: 'Object Repository/tc46/Page_soca-ai-proctoring-dashboard/button_Submit' is clicked on
+
+2022-07-21 09:59:50 - [MESSAGE][PASSED] - Object: 'Object Repository/tc46/Page_soca-ai-proctoring-dashboard/button_Submit' is clicked on
+
+2022-07-21 09:59:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc46/Page_soca-ai-proctoring-dashboard/button_OK")): Object: 'Object Repository/tc46/Page_soca-ai-proctoring-dashboard/button_OK' is clicked on
+
+2022-07-21 09:59:51 - [MESSAGE][PASSED] - Object: 'Object Repository/tc46/Page_soca-ai-proctoring-dashboard/button_OK' is clicked on
+
+2022-07-21 09:59:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-21 09:59:51 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_47" time="18.092" classname="Test Cases/TC_47" status="PASSED">
+         <system-out><![CDATA[2022-07-21 09:59:51 - [TEST_CASE][PASSED] - Test Cases/TC_47: Test Cases/TC_47
+
+2022-07-21 09:59:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-21 09:59:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-21 09:59:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-21 09:59:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-21 09:59:53 - [TEST_STEP][PASSED] - navigateToUrl("https://soca.ai/home"): Navigate to 'https://soca.ai/home' successfully
+
+2022-07-21 09:59:53 - [MESSAGE][PASSED] - Navigate to 'https://soca.ai/home' successfully
+
+2022-07-21 09:59:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc47/Page_soca.ai/a_Sign In")): Object: 'Object Repository/tc47/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-21 09:59:55 - [MESSAGE][PASSED] - Object: 'Object Repository/tc47/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-21 09:59:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc47/Page_soca-dashboarduser/input_Email_form-control"), "kp3skp.dev@gmail.com"): Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc47/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-21 09:59:56 - [MESSAGE][PASSED] - Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc47/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-21 09:59:56 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/tc47/Page_soca-dashboarduser/input_Password_form-control mb-2"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/tc47/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-21 09:59:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/tc47/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-21 09:59:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc47/Page_soca-dashboarduser/button_Sign In")): Object: 'Object Repository/tc47/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-21 09:59:57 - [MESSAGE][PASSED] - Object: 'Object Repository/tc47/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-21 09:59:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc47/Page_soca-dashboarduser/button_OK")): Object: 'Object Repository/tc47/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-21 09:59:57 - [MESSAGE][PASSED] - Object: 'Object Repository/tc47/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-21 09:59:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc47/Page_soca-dashboarduser/a_Projects")): Object: 'Object Repository/tc47/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-21 10:00:00 - [MESSAGE][PASSED] - Object: 'Object Repository/tc47/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-21 10:00:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc47/Page_soca-dashboarduser/button_Dashboard")): Object: 'Object Repository/tc47/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-21 10:00:01 - [MESSAGE][PASSED] - Object: 'Object Repository/tc47/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-21 10:00:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc47/Page_soca-ai-proctoring-dashboard/span_Schedule")): Object: 'Object Repository/tc47/Page_soca-ai-proctoring-dashboard/span_Schedule' is clicked on
+
+2022-07-21 10:00:03 - [MESSAGE][PASSED] - Object: 'Object Repository/tc47/Page_soca-ai-proctoring-dashboard/span_Schedule' is clicked on
+
+2022-07-21 10:00:03 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/tc47/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas"), "62d75991aed847c7e3028120", true): All options with value '62d75991aed847c7e3028120' are selected in object 'Object Repository/tc47/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas'  using regular expression
+
+2022-07-21 10:00:05 - [MESSAGE][PASSED] - All options with value '62d75991aed847c7e3028120' are selected in object 'Object Repository/tc47/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas'  using regular expression
+
+2022-07-21 10:00:05 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/tc47/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration"), "duration", true): All options with value 'duration' are selected in object 'Object Repository/tc47/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration'  using regular expression
+
+2022-07-21 10:00:06 - [MESSAGE][PASSED] - All options with value 'duration' are selected in object 'Object Repository/tc47/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration'  using regular expression
+
+2022-07-21 10:00:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc47/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description"), STOP_ON_FAILURE): Object: 'Object Repository/tc47/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description' is clicked on
+
+2022-07-21 10:00:06 - [MESSAGE][PASSED] - Object: 'Object Repository/tc47/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description' is clicked on
+
+2022-07-21 10:00:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc47/Page_soca-ai-proctoring-dashboard/input_Duration (minutes)_duration"), "60"): Text '60' is set on object 'Object Repository/tc47/Page_soca-ai-proctoring-dashboard/input_Duration (minutes)_duration'
+
+2022-07-21 10:00:07 - [MESSAGE][PASSED] - Text '60' is set on object 'Object Repository/tc47/Page_soca-ai-proctoring-dashboard/input_Duration (minutes)_duration'
+
+2022-07-21 10:00:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc47/Page_soca-ai-proctoring-dashboard/button_Submit")): Object: 'Object Repository/tc47/Page_soca-ai-proctoring-dashboard/button_Submit' is clicked on
+
+2022-07-21 10:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/tc47/Page_soca-ai-proctoring-dashboard/button_Submit' is clicked on
+
+2022-07-21 10:00:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc47/Page_soca-ai-proctoring-dashboard/button_OK")): Object: 'Object Repository/tc47/Page_soca-ai-proctoring-dashboard/button_OK' is clicked on
+
+2022-07-21 10:00:09 - [MESSAGE][PASSED] - Object: 'Object Repository/tc47/Page_soca-ai-proctoring-dashboard/button_OK' is clicked on
+
+2022-07-21 10:00:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-21 10:00:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_48" time="21.41" classname="Test Cases/TC_48" status="PASSED">
+         <system-out><![CDATA[2022-07-21 10:00:09 - [TEST_CASE][PASSED] - Test Cases/TC_48: Test Cases/TC_48
+
+2022-07-21 10:00:10 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-21 10:00:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-21 10:00:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-21 10:00:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-21 10:00:11 - [TEST_STEP][PASSED] - navigateToUrl("https://soca.ai/home"): Navigate to 'https://soca.ai/home' successfully
+
+2022-07-21 10:00:12 - [MESSAGE][PASSED] - Navigate to 'https://soca.ai/home' successfully
+
+2022-07-21 10:00:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc48/Page_soca.ai/a_Sign In")): Object: 'Object Repository/tc48/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-21 10:00:17 - [MESSAGE][PASSED] - Object: 'Object Repository/tc48/Page_soca.ai/a_Sign In' is clicked on
+
+2022-07-21 10:00:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc48/Page_soca-dashboarduser/input_Email_form-control"), "kp3skp.dev@gmail.com"): Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc48/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-21 10:00:17 - [MESSAGE][PASSED] - Text 'kp3skp.dev@gmail.com' is set on object 'Object Repository/tc48/Page_soca-dashboarduser/input_Email_form-control'
+
+2022-07-21 10:00:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/tc48/Page_soca-dashboarduser/input_Password_form-control mb-2"), "RigbBhfdqODKcAsiUrg+1Q=="): Text ****** has been set on object 'Object Repository/tc48/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-21 10:00:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/tc48/Page_soca-dashboarduser/input_Password_form-control mb-2'
+
+2022-07-21 10:00:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc48/Page_soca-dashboarduser/button_Sign In")): Object: 'Object Repository/tc48/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-21 10:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/tc48/Page_soca-dashboarduser/button_Sign In' is clicked on
+
+2022-07-21 10:00:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc48/Page_soca-dashboarduser/button_OK")): Object: 'Object Repository/tc48/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-21 10:00:19 - [MESSAGE][PASSED] - Object: 'Object Repository/tc48/Page_soca-dashboarduser/button_OK' is clicked on
+
+2022-07-21 10:00:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc48/Page_soca-dashboarduser/a_Projects")): Object: 'Object Repository/tc48/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-21 10:00:21 - [MESSAGE][PASSED] - Object: 'Object Repository/tc48/Page_soca-dashboarduser/a_Projects' is clicked on
+
+2022-07-21 10:00:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc48/Page_soca-dashboarduser/button_Dashboard")): Object: 'Object Repository/tc48/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-21 10:00:22 - [MESSAGE][PASSED] - Object: 'Object Repository/tc48/Page_soca-dashboarduser/button_Dashboard' is clicked on
+
+2022-07-21 10:00:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc48/Page_soca-ai-proctoring-dashboard/span_Schedule")): Object: 'Object Repository/tc48/Page_soca-ai-proctoring-dashboard/span_Schedule' is clicked on
+
+2022-07-21 10:00:24 - [MESSAGE][PASSED] - Object: 'Object Repository/tc48/Page_soca-ai-proctoring-dashboard/span_Schedule' is clicked on
+
+2022-07-21 10:00:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/tc48/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas"), "62d75991aed847c7e3028120", true): All options with value '62d75991aed847c7e3028120' are selected in object 'Object Repository/tc48/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas'  using regular expression
+
+2022-07-21 10:00:26 - [MESSAGE][PASSED] - All options with value '62d75991aed847c7e3028120' are selected in object 'Object Repository/tc48/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas'  using regular expression
+
+2022-07-21 10:00:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/tc48/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration"), "duration", true): All options with value 'duration' are selected in object 'Object Repository/tc48/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration'  using regular expression
+
+2022-07-21 10:00:27 - [MESSAGE][PASSED] - All options with value 'duration' are selected in object 'Object Repository/tc48/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration'  using regular expression
+
+2022-07-21 10:00:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/tc48/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description"), "Sesi pagi"): Text 'Sesi pagi' is set on object 'Object Repository/tc48/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description'
+
+2022-07-21 10:00:28 - [MESSAGE][PASSED] - Text 'Sesi pagi' is set on object 'Object Repository/tc48/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description'
+
+2022-07-21 10:00:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc48/Page_soca-ai-proctoring-dashboard/input_Duration (minutes)_duration"), STOP_ON_FAILURE): Object: 'Object Repository/tc48/Page_soca-ai-proctoring-dashboard/input_Duration (minutes)_duration' is clicked on
+
+2022-07-21 10:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/tc48/Page_soca-ai-proctoring-dashboard/input_Duration (minutes)_duration' is clicked on
+
+2022-07-21 10:00:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc48/Page_soca-ai-proctoring-dashboard/button_Submit")): Object: 'Object Repository/tc48/Page_soca-ai-proctoring-dashboard/button_Submit' is clicked on
+
+2022-07-21 10:00:29 - [MESSAGE][PASSED] - Object: 'Object Repository/tc48/Page_soca-ai-proctoring-dashboard/button_Submit' is clicked on
+
+2022-07-21 10:00:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/tc48/Page_soca-ai-proctoring-dashboard/button_OK")): Object: 'Object Repository/tc48/Page_soca-ai-proctoring-dashboard/button_OK' is clicked on
+
+2022-07-21 10:00:30 - [MESSAGE][PASSED] - Object: 'Object Repository/tc48/Page_soca-ai-proctoring-dashboard/button_OK' is clicked on
+
+2022-07-21 10:00:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-21 10:00:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-21 09:54:00 - [TEST_SUITE][FAILED] - FR_06: Test Cases/TC_38 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_38.run(TC_38:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__117__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2022-07-21 09:54:00 - [TEST_SUITE][FAILED] - FR_06: Test Cases/TC_38 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/span_21'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:620)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$1.call(Unknown Source)
+	at TC_38.run(TC_38:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:445)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:436)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:415)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:407)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:284)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:144)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1658372038254.run(TempTestSuite1658372038254.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/tc38/Page_soca-ai-proctoring-dashboard/span_21' located by '//div[@id='__BVID__117__cell-2022-07-21_']/span' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1370)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -6,12 +6,12 @@
    <elementGuidId>5ed2e019-55ea-4c12-b42e-ca9b99c45573</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//label[@id='end_date__value_']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#end_date__value_</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@id='end_date__value_']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,10 +22,58 @@
       <name>tag</name>
       <type>Main</type>
       <value>label</value>
-      <webElementGuid>63a27b9e-c6b1-41f0-b473-bbb512673069</webElementGuid>
+      <webElementGuid>419990b4-ff48-42c1-b5d7-914a9cf0c944</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>end_date__value_</value>
+      <webElementGuid>3b30d9fb-1402-4f9c-a3d5-2321e709a909</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>end_date</value>
+      <webElementGuid>7793158c-1ad0-4466-ad45-883a42e9dba6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control text-muted</value>
+      <webElementGuid>c83102a3-1deb-4167-80fb-496b8a4a8bff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>No date selected</value>
+      <webElementGuid>36ca510a-e24c-4ae9-99f0-80503f2cf58e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;end_date__value_&quot;)</value>
+      <webElementGuid>4d7ff28a-6fbc-4ecf-b95f-4dcfaf4074a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>63a27b9e-c6b1-41f0-b473-bbb512673069</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -49,7 +97,7 @@
       <webElementGuid>e59fd394-9177-44f5-822c-5db29749778c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -70,7 +118,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//label[@id='end_date__value_']</value>
-      <webElementGuid>1db7d64b-5d3f-449f-9bd4-c32c34973be5</webElementGuid>
+      <webElementGuid>d84ef81a-8496-4ce4-900e-22df92c60ca4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +126,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='end_date__outer_']/label</value>
-      <webElementGuid>07cdd9e3-a203-42a3-94aa-524b2cdb6981</webElementGuid>
+      <webElementGuid>554f1a4b-a89d-4a51-91a2-ef78adbafe67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +134,55 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='End Date'])[1]/following::label[1]</value>
-      <webElementGuid>20aab8f0-848d-45c0-9e38-0af1e5b8370f</webElementGuid>
+      <webElementGuid>b4759c46-fa9e-488a-9a9d-b1d13ae2e324</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Thursday, July 21, 2022'])[1]/following::label[2]</value>
+      <webElementGuid>d7bd0063-0e07-4ed1-8e7c-a192a623e3e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Time'])[1]/preceding::label[1]</value>
+      <webElementGuid>2098b865-74be-43c3-8fe6-e74cb950268d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No time selected'])[1]/preceding::label[2]</value>
+      <webElementGuid>7c2a7538-e53b-4bee-9656-fa3c5ce5f052</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='No date selected']/parent::*</value>
+      <webElementGuid>fdd706a2-6584-4a07-8997-bec9efc08482</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/div/label</value>
+      <webElementGuid>34a1e835-5c50-4080-a2d8-629d52c91df9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[@id = 'end_date__value_' and (text() = 'No date selected' or . = 'No date selected')]</value>
+      <webElementGuid>3828b006-c98a-436e-8f65-5dca8f6a976c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,45 +191,5 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Wednesday, July 20, 2022'])[1]/following::label[2]</value>
       <webElementGuid>49d4171d-9c19-4114-ba80-d4c6a5d9a2bf</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Time'])[1]/preceding::label[1]</value>
-      <webElementGuid>0275bf26-57df-497a-94f3-f5e1a17e6d77</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No time selected'])[1]/preceding::label[2]</value>
-      <webElementGuid>f4ece347-9dae-4d3d-8ea8-f7037d8cfc0c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='No date selected']/parent::*</value>
-      <webElementGuid>be51bcd2-1067-4a60-8277-670b912904c5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[3]/div[2]/div/label</value>
-      <webElementGuid>7ccc4057-3245-4a47-84a6-1d20a926f4d5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//label[@id = 'end_date__value_' and (text() = 'No date selected' or . = 'No date selected')]</value>
-      <webElementGuid>5c2c59a2-ba6c-4254-9a30-7522d0cb2b75</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

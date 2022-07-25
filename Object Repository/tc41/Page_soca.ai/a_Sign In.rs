@@ -6,12 +6,12 @@
    <elementGuidId>e7a1d5a8-be1b-4292-a4c7-a0146eb71570</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='navbarNavAltMarkup']/div/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>a.btn.ai-btn-gradient.mt-lg-0.mt-3.px-4.py-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navbarNavAltMarkup']/div/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,10 +22,50 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>481b11b1-e9bb-4535-9e9b-9fc210417a43</webElementGuid>
+      <webElementGuid>73ff6d20-2805-4521-897c-291d9482c19c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>http://dashboard-user.soca.ai/login</value>
+      <webElementGuid>10265d58-069d-4dac-b517-456677551e9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn ai-btn-gradient mt-lg-0 mt-3 px-4 py-2</value>
+      <webElementGuid>8a1cce40-d087-46de-b888-7c16080dd7b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sign In</value>
+      <webElementGuid>e262e6eb-df78-4c10-b4f2-686f2d93ca2e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbarNavAltMarkup&quot;)/div[@class=&quot;navbar-nav ml-auto&quot;]/a[@class=&quot;btn ai-btn-gradient mt-lg-0 mt-3 px-4 py-2&quot;]</value>
+      <webElementGuid>5654ac4a-586b-419e-bd30-ce56332fa9ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>481b11b1-e9bb-4535-9e9b-9fc210417a43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
@@ -41,7 +81,7 @@
       <webElementGuid>5aa40bef-2354-44fc-8f8d-8b2e206a8e58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -62,7 +102,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarNavAltMarkup']/div/a</value>
-      <webElementGuid>a74945bf-5ebe-4fee-9d07-0bf61e348bdb</webElementGuid>
+      <webElementGuid>087af9b9-d6bc-4286-97cd-dff5cc5d4101</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +110,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Sign In')]</value>
-      <webElementGuid>cfe559f4-603e-4d91-a210-d638f48c429c</webElementGuid>
+      <webElementGuid>448f455f-4949-4abc-935f-037bd6b03a55</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Events'])[1]/following::a[1]</value>
-      <webElementGuid>3cca3822-7a00-404f-85d0-789b5a625992</webElementGuid>
+      <webElementGuid>227b05ac-91e5-4153-8501-d6c8457bb1fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Company'])[1]/following::a[2]</value>
-      <webElementGuid>4d2d15dd-ff71-4baa-80ce-7ed082ab5e1f</webElementGuid>
+      <webElementGuid>14f83806-8c83-4a68-ad7a-aea2d32d8961</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='A Ready toUse AI'])[1]/preceding::a[1]</value>
-      <webElementGuid>8eec048d-e72d-405b-9200-3f4bc9c00f13</webElementGuid>
+      <webElementGuid>9f34a710-00b5-486f-b8c6-96a6e4bbb9a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +142,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Accelerate your business with our specific use case AI project that ready to use within minutes.'])[1]/preceding::a[1]</value>
-      <webElementGuid>b8c4bc28-d65c-4552-bab5-6e7ef941ec76</webElementGuid>
+      <webElementGuid>07190900-3df1-47b9-8893-7f4f9902de1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +150,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Sign In']/parent::*</value>
-      <webElementGuid>ec971655-336f-4fd8-b914-81a5d11dd164</webElementGuid>
+      <webElementGuid>c990ff06-9862-483a-8c8e-35811233dc0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +158,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[@href='http://dashboard-user.soca.ai/login']</value>
-      <webElementGuid>5530ecf1-916d-416b-ba5d-6ef431d79774</webElementGuid>
+      <webElementGuid>a9e1a7a5-4c25-43e0-9b1f-f944d9d44915</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +166,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/a</value>
-      <webElementGuid>4ec9075f-781d-424a-9fda-7f2c1386d2df</webElementGuid>
+      <webElementGuid>e9046d5f-bb08-43a4-b818-f13fc597e6f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +174,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'http://dashboard-user.soca.ai/login' and (text() = 'Sign In' or . = 'Sign In')]</value>
-      <webElementGuid>17c362bf-db44-40a4-832a-720f15afb7f7</webElementGuid>
+      <webElementGuid>7606e352-ba2c-40ef-9d73-31659062e83b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

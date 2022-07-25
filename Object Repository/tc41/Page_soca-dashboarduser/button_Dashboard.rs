@@ -6,12 +6,12 @@
    <elementGuidId>d095a267-ecf2-495d-b3c5-e5d372b154e6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[11]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[11]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,10 +22,50 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5026e3cb-beab-4229-8120-40e3d0b6c561</webElementGuid>
+      <webElementGuid>3cf37c31-6f13-4cbf-8bae-10583be338da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>19b520b3-a93c-4a17-8157-a1e79b1db59a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>default-action link-actions mr-3</value>
+      <webElementGuid>debdd7e2-1df4-402a-a620-94aa97b5f061</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Dashboard </value>
+      <webElementGuid>41940219-a5db-47db-8368-ce9f9ac7ed15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__BVID__35&quot;)/tbody[1]/tr[3]/td[7]/span[1]/button[@class=&quot;default-action link-actions mr-3&quot;]</value>
+      <webElementGuid>6e9c219d-cd38-4b0a-b412-5303b346515b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5026e3cb-beab-4229-8120-40e3d0b6c561</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -41,7 +81,7 @@
       <webElementGuid>8ef51fa3-3c37-4ba2-9a4a-42bd48dcc15b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -62,7 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[11]</value>
-      <webElementGuid>c488ab37-aa65-433b-b6c2-59ff29300e42</webElementGuid>
+      <webElementGuid>e93bfb4b-ec12-492d-a7e0-3ebdc4e248ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +110,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='__BVID__35']/tbody/tr[3]/td[7]/span/button[3]</value>
-      <webElementGuid>12842b4a-955f-4bff-8b7f-ef7d267caea8</webElementGuid>
+      <webElementGuid>c06e0daf-9dc0-4c76-bd8c-40bfce26f12c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Details'])[3]/following::button[1]</value>
-      <webElementGuid>4952fb68-0bb2-4fdb-9769-b277f6b62c5b</webElementGuid>
+      <webElementGuid>2bfc643e-480f-42d0-944c-34c4500b8b23</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View'])[3]/following::button[2]</value>
-      <webElementGuid>19d83451-4a6e-46a7-8191-3118cfff1f8b</webElementGuid>
+      <webElementGuid>5900ad56-1333-4740-a344-40552e579251</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rupa'])[4]/preceding::button[1]</value>
-      <webElementGuid>9b8af665-7569-406c-b160-52645edd5692</webElementGuid>
+      <webElementGuid>c773a418-a2dc-404e-ad29-24ab0717855e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +142,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Proctoring'])[4]/preceding::button[1]</value>
-      <webElementGuid>1fbcf5b0-dded-4fbb-aefe-7bfdc68ac05e</webElementGuid>
+      <webElementGuid>3a718753-f6a0-4711-a7e7-9494b689336f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +150,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//tr[3]/td[7]/span/button[3]</value>
-      <webElementGuid>ba8b7f91-03a9-4aba-91e9-ab585ff8c8a1</webElementGuid>
+      <webElementGuid>6c9e6d08-7e08-4391-95b2-90623646b4b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +158,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = ' Dashboard ' or . = ' Dashboard ')]</value>
-      <webElementGuid>8f98a800-ef5a-48ab-ab4c-902ddd9b97db</webElementGuid>
+      <webElementGuid>b76a0da5-1ba0-40a5-a4fa-c2367e426780</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

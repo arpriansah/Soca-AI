@@ -6,16 +6,80 @@
    <elementGuidId>4ad47ad5-fa21-4654-a481-0f523deed95b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[9]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.b-form-spinbutton.form-control.focus.d-inline-flex.flex-column.b-time-hours > button.btn.btn-sm.border-0.rounded-0</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[9]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>3c448f14-f400-4e2a-84df-7cc91f07a97c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>-1</value>
+      <webElementGuid>50c4e84e-3d16-4aa9-8ea4-ce94e0eeec92</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>c1566f19-1a6b-4f51-a763-437d698af68f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-controls</name>
+      <type>Main</type>
+      <value>end_time__spinbutton_hours_</value>
+      <webElementGuid>dc958892-1522-4d7a-b021-c50b47a04542</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-label</name>
+      <type>Main</type>
+      <value>Increment</value>
+      <webElementGuid>da705074-3fe3-46ab-881c-493618f6c65a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-keyshortcuts</name>
+      <type>Main</type>
+      <value>ArrowUp</value>
+      <webElementGuid>e669c484-dcaa-4e0a-ad79-e2bc86d07133</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-sm border-0 rounded-0</value>
+      <webElementGuid>170b7b8c-f5ae-4447-8122-a1575cd6971e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-wrapper&quot;]/div[@class=&quot;main-container-fluid&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row mb-3&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;card w-100 mx-3 p-5&quot;]/form[1]/div[@class=&quot;row mt-3&quot;]/div[@class=&quot;col-3&quot;]/div[@class=&quot;d-flex justify-content-start&quot;]/div[@class=&quot;b-time d-inline-flex flex-column text-center&quot;]/div[@class=&quot;d-flex align-items-center justify-content-center mx-auto&quot;]/div[@class=&quot;b-form-spinbutton form-control focus d-inline-flex flex-column b-time-hours&quot;]/button[@class=&quot;btn btn-sm border-0 rounded-0&quot;]</value>
+      <webElementGuid>eee251e2-47b5-46df-a275-56e26aa83758</webElementGuid>
+   </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -33,7 +97,7 @@
       <webElementGuid>662a4394-88ad-4589-9c08-97b6b27dae85</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
@@ -86,7 +150,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[9]</value>
-      <webElementGuid>8b184dd1-4248-4863-a5f8-9fc36c49d8f9</webElementGuid>
+      <webElementGuid>598f29b2-21fd-46e7-83da-e406793b107b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +158,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[3]/div/div[2]/div/div/div/form/div[4]/div[2]/div/div/div/div/button</value>
-      <webElementGuid>a7584832-1d97-48ad-aa8a-cbca31694b77</webElementGuid>
+      <webElementGuid>7a6dad9f-6904-41c4-9cce-9875c6704016</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +166,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No time selected'])[2]/following::button[1]</value>
-      <webElementGuid>63164a68-83bc-415f-9d2d-33821a8ade07</webElementGuid>
+      <webElementGuid>f7c79936-8507-443f-8b2b-c546a9653bf3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +174,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='End Time'])[1]/following::button[1]</value>
-      <webElementGuid>cb6000bc-e1ae-4750-9fac-0eac3c75c880</webElementGuid>
+      <webElementGuid>0408fab4-ad05-46ec-8ca3-8f5e1194d603</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +182,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='--'])[3]/preceding::button[3]</value>
-      <webElementGuid>6ccfd9d7-5cc3-4937-9b68-6fdbc666e566</webElementGuid>
+      <webElementGuid>cba6ba98-a25a-45ce-bb48-5d84246578df</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +190,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='AM'])[2]/preceding::button[5]</value>
-      <webElementGuid>c6f21a37-7911-4252-80e9-31083bb52e05</webElementGuid>
+      <webElementGuid>fd92dd7e-844b-4ae1-9b6a-4942586057f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +198,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/div/button</value>
-      <webElementGuid>58756b3a-661c-48fa-9248-22c28a32c67c</webElementGuid>
+      <webElementGuid>700e6474-4ec6-47c4-9093-4ba79d4c5c45</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,6 +206,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button']</value>
-      <webElementGuid>cf6d5432-0fde-4bc5-b2df-46df773bc012</webElementGuid>
+      <webElementGuid>693cb404-f201-4963-8a8c-bd971a85928b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

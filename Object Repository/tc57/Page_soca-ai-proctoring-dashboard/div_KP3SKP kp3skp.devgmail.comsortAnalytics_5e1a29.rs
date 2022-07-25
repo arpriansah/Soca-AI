@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_KP3SKP kp3skp.devgmail.comsortAnalytics_5e1a29</name>
+   <tag></tag>
+   <elementGuidId>b4603c00-5497-4d9a-a2a3-0858496a7cda</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.main-wrapper</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a67d9c6a-5e60-4eeb-bd2c-e3f2276e3d8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>main-wrapper</value>
+      <webElementGuid>24b6b02e-d962-4a19-9771-4316211a3a5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>KP3SKP kp3skp.dev@gmail.comsortAnalyticspersonMaster UserseventMaster EventscheduleSchedulepersonCandidategraphic_eqLiveActivitysubjectReportgraphic_eqEvaluationmenuTest pay as you go failedlogoutScheduleEvent Name--Select Event Name--UjiantesuasTypeExpired TimeDurationSchedule NameDuration (minutes)Edit Display  102550100 Data  Search: No (Click to sort Ascending)Event Name (Click to sort Ascending)Schedule Name (Click to sort Ascending)Start Date (Click to sort Ascending)End Date (Click to sort Ascending)Duration (Click to sort Ascending)Action (Click to sort Ascending) 1UjianSesi pagi -  -  60  2uasSesi siang 2022-07-22 10:00:00  2022-07-26 10:00:00  - «‹1›»</value>
+      <webElementGuid>e4c927b6-7d3e-4a9f-a01e-9aa0e2085c9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-wrapper&quot;]</value>
+      <webElementGuid>168eede7-edcf-4dc8-bc5e-43179adea930</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div</value>
+      <webElementGuid>a215cd59-1b18-4775-91b8-28f1b280648e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div</value>
+      <webElementGuid>4645b395-2332-423d-a15c-bbfad3c68ac1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'KP3SKP kp3skp.dev@gmail.comsortAnalyticspersonMaster UserseventMaster EventscheduleSchedulepersonCandidategraphic_eqLiveActivitysubjectReportgraphic_eqEvaluationmenuTest pay as you go failedlogoutScheduleEvent Name--Select Event Name--UjiantesuasTypeExpired TimeDurationSchedule NameDuration (minutes)Edit Display  102550100 Data  Search: No (Click to sort Ascending)Event Name (Click to sort Ascending)Schedule Name (Click to sort Ascending)Start Date (Click to sort Ascending)End Date (Click to sort Ascending)Duration (Click to sort Ascending)Action (Click to sort Ascending) 1UjianSesi pagi -  -  60  2uasSesi siang 2022-07-22 10:00:00  2022-07-26 10:00:00  - «‹1›»' or . = 'KP3SKP kp3skp.dev@gmail.comsortAnalyticspersonMaster UserseventMaster EventscheduleSchedulepersonCandidategraphic_eqLiveActivitysubjectReportgraphic_eqEvaluationmenuTest pay as you go failedlogoutScheduleEvent Name--Select Event Name--UjiantesuasTypeExpired TimeDurationSchedule NameDuration (minutes)Edit Display  102550100 Data  Search: No (Click to sort Ascending)Event Name (Click to sort Ascending)Schedule Name (Click to sort Ascending)Start Date (Click to sort Ascending)End Date (Click to sort Ascending)Duration (Click to sort Ascending)Action (Click to sort Ascending) 1UjianSesi pagi -  -  60  2uasSesi siang 2022-07-22 10:00:00  2022-07-26 10:00:00  - «‹1›»')]</value>
+      <webElementGuid>74d33ff9-eeb0-4644-8ca7-c007b2022dc7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FR_08,Chrome 103.0.5060.134,,,2022-07-21 11:48:25,2022-07-21 11:48:56,31.279s,PASSED
+,,,,,,,
+Test Cases/TC_58,Chrome 103.0.5060.134,,,2022-07-21 11:48:25,2022-07-21 11:48:41,15.989s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.134,,,2022-07-21 11:48:26,2022-07-21 11:48:28,2.064s,PASSED
+"navigateToUrl(""https://soca.ai/home"")",Chrome 103.0.5060.134,,,2022-07-21 11:48:28,2022-07-21 11:48:29,1.031s,PASSED
+"click(findTestObject(""Object Repository/tc58/Page_soca.ai/a_Sign In""))",Chrome 103.0.5060.134,,,2022-07-21 11:48:29,2022-07-21 11:48:31,1.799s,PASSED
+"setText(findTestObject(""Object Repository/tc58/Page_soca-dashboarduser/input_Email_form-control""), ""kp3skp.dev@gmail.com"")",Chrome 103.0.5060.134,,,2022-07-21 11:48:31,2022-07-21 11:48:31,0.711s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/tc58/Page_soca-dashboarduser/input_Password_form-control mb-2""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 103.0.5060.134,,,2022-07-21 11:48:31,2022-07-21 11:48:32,0.418s,PASSED
+"click(findTestObject(""Object Repository/tc58/Page_soca-dashboarduser/button_Sign In""))",Chrome 103.0.5060.134,,,2022-07-21 11:48:32,2022-07-21 11:48:32,0.381s,PASSED
+"click(findTestObject(""Object Repository/tc58/Page_soca-dashboarduser/button_OK""))",Chrome 103.0.5060.134,,,2022-07-21 11:48:32,2022-07-21 11:48:33,0.688s,PASSED
+"click(findTestObject(""Object Repository/tc58/Page_soca-dashboarduser/a_Projects""))",Chrome 103.0.5060.134,,,2022-07-21 11:48:33,2022-07-21 11:48:35,2.253s,PASSED
+"click(findTestObject(""Object Repository/tc58/Page_soca-dashboarduser/button_Dashboard""))",Chrome 103.0.5060.134,,,2022-07-21 11:48:35,2022-07-21 11:48:36,0.919s,PASSED
+"click(findTestObject(""Object Repository/tc58/Page_soca-ai-proctoring-dashboard/span_Schedule""))",Chrome 103.0.5060.134,,,2022-07-21 11:48:36,2022-07-21 11:48:38,2.005s,PASSED
+"click(findTestObject(""Object Repository/tc58/Page_soca-ai-proctoring-dashboard/svg_-_bi-trash-fill b-icon bi""))",Chrome 103.0.5060.134,,,2022-07-21 11:48:38,2022-07-21 11:48:39,1.154s,PASSED
+"click(findTestObject(""Object Repository/tc58/Page_soca-ai-proctoring-dashboard/button_Delete""))",Chrome 103.0.5060.134,,,2022-07-21 11:48:39,2022-07-21 11:48:40,0.486s,PASSED
+"click(findTestObject(""Object Repository/tc58/Page_soca-ai-proctoring-dashboard/button_OK""))",Chrome 103.0.5060.134,,,2022-07-21 11:48:40,2022-07-21 11:48:41,1.046s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-21 11:48:41,2022-07-21 11:48:41,0.697s,PASSED
+,,,,,,,
+Test Cases/TC_59,Chrome 103.0.5060.134,,,2022-07-21 11:48:41,2022-07-21 11:48:56,15.057s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.134,,,2022-07-21 11:48:42,2022-07-21 11:48:43,1.297s,PASSED
+"navigateToUrl(""https://soca.ai/home"")",Chrome 103.0.5060.134,,,2022-07-21 11:48:43,2022-07-21 11:48:44,1.187s,PASSED
+"click(findTestObject(""Object Repository/tc59/Page_soca.ai/a_Sign In""))",Chrome 103.0.5060.134,,,2022-07-21 11:48:44,2022-07-21 11:48:46,1.755s,PASSED
+"setText(findTestObject(""Object Repository/tc59/Page_soca-dashboarduser/input_Email_form-control""), ""kp3skp.dev@gmail.com"")",Chrome 103.0.5060.134,,,2022-07-21 11:48:46,2022-07-21 11:48:46,0.690s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/tc59/Page_soca-dashboarduser/input_Password_form-control mb-2""), ""RigbBhfdqODKcAsiUrg+1Q=="")",Chrome 103.0.5060.134,,,2022-07-21 11:48:46,2022-07-21 11:48:47,0.381s,PASSED
+"click(findTestObject(""Object Repository/tc59/Page_soca-dashboarduser/button_Sign In""))",Chrome 103.0.5060.134,,,2022-07-21 11:48:47,2022-07-21 11:48:47,0.384s,PASSED
+"click(findTestObject(""Object Repository/tc59/Page_soca-dashboarduser/button_OK""))",Chrome 103.0.5060.134,,,2022-07-21 11:48:47,2022-07-21 11:48:48,0.706s,PASSED
+"click(findTestObject(""Object Repository/tc59/Page_soca-dashboarduser/a_Projects""))",Chrome 103.0.5060.134,,,2022-07-21 11:48:48,2022-07-21 11:48:50,2.207s,PASSED
+"click(findTestObject(""Object Repository/tc59/Page_soca-dashboarduser/button_Dashboard""))",Chrome 103.0.5060.134,,,2022-07-21 11:48:50,2022-07-21 11:48:51,1.030s,PASSED
+"click(findTestObject(""Object Repository/tc59/Page_soca-ai-proctoring-dashboard/span_Schedule""))",Chrome 103.0.5060.134,,,2022-07-21 11:48:51,2022-07-21 11:48:53,1.878s,PASSED
+"click(findTestObject(""Object Repository/tc59/Page_soca-ai-proctoring-dashboard/svg_-_bi-trash-fill b-icon bi""))",Chrome 103.0.5060.134,,,2022-07-21 11:48:53,2022-07-21 11:48:54,1.122s,PASSED
+"click(findTestObject(""Object Repository/tc59/Page_soca-ai-proctoring-dashboard/button_Delete""))",Chrome 103.0.5060.134,,,2022-07-21 11:48:54,2022-07-21 11:48:55,0.471s,PASSED
+"click(findTestObject(""Object Repository/tc59/Page_soca-ai-proctoring-dashboard/button_OK""))",Chrome 103.0.5060.134,,,2022-07-21 11:48:55,2022-07-21 11:48:56,1.002s,PASSED
+closeBrowser(),Chrome 103.0.5060.134,,,2022-07-21 11:48:56,2022-07-21 11:48:56,0.703s,PASSED

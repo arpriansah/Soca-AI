@@ -6,12 +6,12 @@
    <elementGuidId>aabe1713-9538-4faa-832b-d3b195a8e54f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='ai-tour-dashboard-2']/div/div/div/div/img</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.position-absolute.ai-img-check-type > img</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ai-tour-dashboard-2']/div/div/div/div/img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,10 +22,42 @@
       <name>tag</name>
       <type>Main</type>
       <value>img</value>
-      <webElementGuid>e4aeb226-71d9-4b01-996f-05d3ea6bedf8</webElementGuid>
+      <webElementGuid>72f9eb93-421f-43e1-8d7d-c83bb2d236a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://i.ibb.co/x53zWwT/Ellipse-1782.png</value>
+      <webElementGuid>8f420a47-62cd-422d-b462-2e9f4efe0dbd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>border</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>205f301f-e902-4af4-8915-c3d3d8038537</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ai-tour-dashboard-2&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-5 col-sm-12&quot;]/div[@class=&quot;card ai-card-opt&quot;]/div[@class=&quot;position-absolute ai-img-check-type&quot;]/img[1]</value>
+      <webElementGuid>b634c25f-00aa-4fcd-b646-f65e220e8ee8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>e4aeb226-71d9-4b01-996f-05d3ea6bedf8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>src</name>
       <type>Main</type>
@@ -54,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='ai-tour-dashboard-2']/div/div/div/div/img</value>
-      <webElementGuid>30c50fa3-5984-4944-ad2b-267bfd1ca623</webElementGuid>
+      <webElementGuid>89d84f6a-2091-495f-a4ee-f24852f058ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +94,7 @@
       <name>xpath:img</name>
       <type>Main</type>
       <value>//img[contains(@src,'https://i.ibb.co/x53zWwT/Ellipse-1782.png')]</value>
-      <webElementGuid>68bc820d-2c80-441e-a13b-9044d094528c</webElementGuid>
+      <webElementGuid>d2171ee2-3bc8-4343-acdf-f811524d6a4b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/img</value>
-      <webElementGuid>fb59f530-3f53-4ac9-a728-a2f18013483a</webElementGuid>
+      <webElementGuid>9f007fae-69bc-465b-afdc-f6b1bf669266</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//img[@src = 'https://i.ibb.co/x53zWwT/Ellipse-1782.png']</value>
-      <webElementGuid>9485dfc2-c6d6-44f7-9432-46024ca89539</webElementGuid>
+      <webElementGuid>3c723572-5d65-47d1-b46d-240268e229e9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

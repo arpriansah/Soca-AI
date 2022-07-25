@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Event Name--Select Event Name--Ujiantes_dad1a5</name>
+   <tag></tag>
+   <elementGuidId>764533df-6ff4-4c08-b44c-8ed035b71734</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.card.w-100.mx-3.p-5</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div[3]/div/div[2]/div/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>3b5dc7b0-f522-4d24-a0bd-2836c3061418</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card w-100 mx-3 p-5</value>
+      <webElementGuid>135025fe-a0f3-4dc1-833c-2fb942f95bee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Event Name--Select Event Name--UjiantesuasTypeExpired TimeDurationSchedule NameStart DateThursday, July 21, 2022End DateMonday, July 25, 2022Start Time9:00 AM (Selected time) 0900AMEnd Time9:00 AM (Selected time) 0900AMEdit</value>
+      <webElementGuid>950e77cc-5cec-4134-995c-12746d073506</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-wrapper&quot;]/div[@class=&quot;main-container-fluid&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row mb-3&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;card w-100 mx-3 p-5&quot;]</value>
+      <webElementGuid>177ceaaa-4db5-4510-bc99-1c2b1967977a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div[3]/div/div[2]/div/div/div</value>
+      <webElementGuid>a6415314-3f88-44d1-a97c-adff7ded3794</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Schedule'])[2]/following::div[4]</value>
+      <webElementGuid>51d8e463-0183-4af8-866c-aa4a7f01a559</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='logout'])[1]/following::div[9]</value>
+      <webElementGuid>af5924d3-df39-4b9e-80e3-8e8e797da701</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div</value>
+      <webElementGuid>f4240691-cb1d-4cb3-91f1-a97e2bd90db7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Event Name--Select Event Name--UjiantesuasTypeExpired TimeDurationSchedule NameStart DateThursday, July 21, 2022End DateMonday, July 25, 2022Start Time9:00 AM (Selected time) 0900AMEnd Time9:00 AM (Selected time) 0900AMEdit' or . = 'Event Name--Select Event Name--UjiantesuasTypeExpired TimeDurationSchedule NameStart DateThursday, July 21, 2022End DateMonday, July 25, 2022Start Time9:00 AM (Selected time) 0900AMEnd Time9:00 AM (Selected time) 0900AMEdit')]</value>
+      <webElementGuid>fd4503c3-b6d6-4c45-b117-1e7b15b4d271</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

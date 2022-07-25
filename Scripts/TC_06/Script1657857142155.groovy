@@ -42,7 +42,9 @@ WebUI.click(findTestObject('Object Repository/tc06/Page_soca-dashboarduser/img')
 
 WebUI.click(findTestObject('Object Repository/tc06/Page_soca-dashboarduser/button_Calculate'))
 
-WebUI.click(findTestObject('Object Repository/tc06/Page_soca-dashboarduser/button_OK'))
+WebUI.click(findTestObject('tc06/Page_soca-dashboarduser/button_OK'))
+
+WebUI.click(findTestObject('tc06/Page_soca-dashboarduser/a_Dashboard'))
 
 WebUI.closeBrowser()
 

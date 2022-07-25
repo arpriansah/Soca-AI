@@ -6,16 +6,56 @@
    <elementGuidId>c102b9ae-0d9e-42f1-aede-2bdabb61418e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='__BVID__70']</value>
+         <key>CSS</key>
+         <value>#__BVID__71</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#__BVID__70</value>
+         <key>XPATH</key>
+         <value>//select[@id='__BVID__71']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>c84bcb16-9e6d-4262-811f-29fb197af4a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>custom-select</value>
+      <webElementGuid>7e18849f-994f-47b2-b491-5cd8950a190b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>__BVID__71</value>
+      <webElementGuid>52e67e64-e086-4a1b-b9b9-61068cb7ffa8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>--Select Event Name--Ujiantesuas</value>
+      <webElementGuid>a05bdc74-086d-4a63-aed8-3ec45bda466e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__BVID__71&quot;)</value>
+      <webElementGuid>eee8ecbd-604c-41e6-9ef7-e423dc9bdb11</webElementGuid>
+   </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -33,7 +73,7 @@
       <webElementGuid>6781bdc7-15ce-438d-a7fc-08714c16e0b5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
@@ -41,7 +81,7 @@
       <webElementGuid>c2e663b5-85ab-4727-9147-7055e6b0a254</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -61,8 +101,8 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//select[@id='__BVID__70']</value>
-      <webElementGuid>d287a72d-7340-4224-9543-c558087e37db</webElementGuid>
+      <value>//select[@id='__BVID__71']</value>
+      <webElementGuid>6278ea35-7cfc-4eaf-943f-8138a6d5f2f0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +110,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[3]/div/div[2]/div/div/div/form/div/div/select</value>
-      <webElementGuid>7e70ee08-dc9c-4b1d-ac68-d7a1155a3605</webElementGuid>
+      <webElementGuid>4ff6d2ff-62c8-46a5-9aa6-76a02208d3f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Event Name'])[1]/following::select[1]</value>
-      <webElementGuid>baaac09e-bceb-457d-b85f-154257210253</webElementGuid>
+      <webElementGuid>a3b75c50-926e-4a9b-aad9-8f1c170df4f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Schedule'])[2]/following::select[1]</value>
-      <webElementGuid>6a4eba89-fa36-4472-8ecb-e6c81825f31e</webElementGuid>
+      <webElementGuid>277e05ab-1a35-4ff8-8576-3b1c686d58fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[1]/preceding::select[1]</value>
-      <webElementGuid>18dd053b-818e-4f3c-8019-df589d179c91</webElementGuid>
+      <webElementGuid>e80fc005-de7c-47d7-9de6-20f2e762c6db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +142,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Schedule Name'])[1]/preceding::select[2]</value>
-      <webElementGuid>06605971-c5ff-41cd-bde0-0e5ce275f0fa</webElementGuid>
+      <webElementGuid>a8fb80e9-785d-4dfb-9045-6af0a5123d0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +150,23 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//select</value>
-      <webElementGuid>97f4c14e-7b7a-4156-84ad-e1b4eb473674</webElementGuid>
+      <webElementGuid>f7e3524a-44c4-46b2-9e9a-f045303ca5a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = '__BVID__71' and (text() = '--Select Event Name--Ujiantesuas' or . = '--Select Event Name--Ujiantesuas')]</value>
+      <webElementGuid>700f63ec-0024-47d0-8580-e896c09bf761</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='__BVID__70']</value>
+      <webElementGuid>d287a72d-7340-4224-9543-c558087e37db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

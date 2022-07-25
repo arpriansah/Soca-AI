@@ -38,24 +38,44 @@ WebUI.click(findTestObject('Object Repository/tc39/Page_soca-dashboarduser/butto
 
 WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/span_Schedule'))
 
-WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/div_Event Name--Select Event Name--Ujiantesuas'))
-
 WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/select_--Select Event Name--Ujiantesuas'))
 
-WebUI.selectOptionByValue(findTestObject('tc38/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration'), 'time', 
-    true)
+WebUI.selectOptionByValue(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/select_Expired TimeDuration'), 
+    'time', true)
 
 WebUI.setText(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/input_Schedule Name_description'), 
     'Sesi pagi')
 
 WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/label_No date selected'))
 
-WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/span_20'))
+WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/span_21'))
 
 WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/label_No date selected_1'))
 
 WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/span_25'))
 
+WebUI.doubleClick(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/button_No time selected_btn btn-sm border-0_f48676'))
+
+WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/button_No time selected_btn btn-sm border-0_f48676'))
+
+WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/button_No time selected_btn btn-sm border-0_f48676'))
+
+WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/button_No time selected_btn btn-sm border-0_f48676'))
+
+WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/button_No time selected_btn btn-sm border-0_f48676'))
+
+WebUI.doubleClick(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/button_No time selected_btn btn-sm border-0_f48676'))
+
+WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/button_No time selected_btn btn-sm border-0_f48676'))
+
+WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/button_No time selected_btn btn-sm border-0_f48676'))
+
+WebUI.doubleClick(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/button_No time selected_btn btn-sm border-0_f48676'))
+
+WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/button_No time selected_btn btn-sm border-0_f48676'))
+
+WebUI.doubleClick(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/button_No time selected_btn btn-sm border-0_f48676'))
+
 WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/button_No time selected_btn btn-sm border-0_f48676'))
 
 WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/button_No time selected_btn btn-sm border-0_f48676'))
@@ -73,32 +93,6 @@ WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashb
 WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/button_No time selected_btn btn-sm border-0_f48676'))
 
 WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/button_No time selected_btn btn-sm border-0_f48676'))
-
-WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/button_No time selected_btn btn-sm border-0_f48676'))
-
-WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/button_No time selected_btn btn-sm border-0_f48676'))
-
-WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/svg_No time selected_bi-chevron-up b-icon bi'))
-
-WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/path'))
-
-WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/path'))
-
-WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/path'))
-
-WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/path'))
-
-WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/path'))
-
-WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/path'))
-
-WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/path'))
-
-WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/path'))
-
-WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/path'))
-
-WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/path_1'))
 
 WebUI.click(findTestObject('Object Repository/tc39/Page_soca-ai-proctoring-dashboard/button_Submit'))
 

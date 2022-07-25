@@ -6,16 +6,48 @@
    <elementGuidId>4af86533-7f62-4a8a-a915-d87f978f91df</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__BVID__115__cell-2022-07-25_']/span</value>
+         <key>CSS</key>
+         <value>#__BVID__122__cell-2022-07-25_ > span.btn.border-0.rounded-circle.text-nowrap.btn-outline-light.text-dark.font-weight-bold</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#__BVID__115__cell-2022-07-25_ > span.btn.border-0.rounded-circle.text-nowrap.btn-outline-light.text-dark.font-weight-bold</value>
+         <key>XPATH</key>
+         <value>//div[@id='__BVID__122__cell-2022-07-25_']/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a91c78f5-3301-44d4-a631-647f06f1da12</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn border-0 rounded-circle text-nowrap btn-outline-light text-dark font-weight-bold</value>
+      <webElementGuid>64e08f39-9fd1-403e-a4be-ed9c8721a2c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>25</value>
+      <webElementGuid>26deea5e-a3f5-4ccd-bd48-9b1f1b2b049f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__BVID__122__cell-2022-07-25_&quot;)/span[@class=&quot;btn border-0 rounded-circle text-nowrap btn-outline-light text-dark font-weight-bold&quot;]</value>
+      <webElementGuid>33f855cd-30c3-424a-a9b2-47ee212eed44</webElementGuid>
+   </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -33,7 +65,7 @@
       <webElementGuid>07d33314-af33-4a55-96f8-8637d711e68f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -53,8 +85,8 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='__BVID__115__cell-2022-07-25_']/span</value>
-      <webElementGuid>d2870a83-50f5-47d3-a16f-6e69e38276bc</webElementGuid>
+      <value>//div[@id='__BVID__122__cell-2022-07-25_']/span</value>
+      <webElementGuid>2163617a-ede4-468b-8c87-2c7a099e42bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sat'])[1]/following::span[30]</value>
-      <webElementGuid>ef8a5908-80f2-4545-81fd-5d72e668f299</webElementGuid>
+      <webElementGuid>8d01974d-0e03-4dcc-a6f9-d58f1bb389ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Fri'])[1]/following::span[30]</value>
-      <webElementGuid>3253ec16-f192-413f-9b06-8da86a255ebd</webElementGuid>
+      <webElementGuid>b0fd0325-6414-45e0-b485-e0bfcfc54663</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Use cursor keys to navigate calendar dates'])[1]/preceding::span[13]</value>
-      <webElementGuid>5dd30c92-c76f-4313-89eb-3fb18e5f8dfa</webElementGuid>
+      <webElementGuid>97786b12-ec2d-4963-a19e-63e7f346959d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No date selected'])[2]/preceding::span[13]</value>
-      <webElementGuid>da8ea639-7cf3-44db-b019-6c64d8a6e958</webElementGuid>
+      <webElementGuid>8ed8d85e-dced-4bd5-9712-12202b0f6b26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='25']/parent::*</value>
-      <webElementGuid>b13c0c4b-3e88-4a18-bc3e-8593c644d538</webElementGuid>
+      <webElementGuid>0639816e-a8b7-47b2-8e13-5d7c224ee84a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +134,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div[2]/span</value>
-      <webElementGuid>ae990829-ed80-4031-8cb5-e3c45a72d818</webElementGuid>
+      <webElementGuid>4315a477-8374-4b2e-8a9d-2c3203e0c571</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +142,14 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = '25' or . = '25')]</value>
-      <webElementGuid>51cd22cc-1a0f-414b-94a0-42829c68b99d</webElementGuid>
+      <webElementGuid>d712c9a8-a3e5-41db-815e-7482a51de35e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__BVID__115__cell-2022-07-25_']/span</value>
+      <webElementGuid>d2870a83-50f5-47d3-a16f-6e69e38276bc</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

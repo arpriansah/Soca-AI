@@ -6,16 +6,48 @@
    <elementGuidId>1db0399a-ed08-4a0a-a5a4-6da5ac268acc</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='app']/div/div/div/div/div[4]/a/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div/div[4]/a/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>cb9c2465-9350-4eca-a9b8-db68001a0c4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hide-in-minisidebar</value>
+      <webElementGuid>8830b097-d62b-458b-87de-2477bbd66720</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Schedule</value>
+      <webElementGuid>8d3c6278-3c51-4770-a9cb-b4c1f6a9af0a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-wrapper&quot;]/div[@class=&quot;vs-content-sidebar sidebarx&quot;]/div[@class=&quot;vs-sidebar vs-sidebar-primary vs-sidebar-parent&quot;]/div[@class=&quot;vs-sidebar--items&quot;]/div[@class=&quot;vs-sidebar--item&quot;]/a[1]/span[@class=&quot;hide-in-minisidebar&quot;]</value>
+      <webElementGuid>74981067-8ed7-4786-9ba0-b300e330ca96</webElementGuid>
+   </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
@@ -33,7 +65,7 @@
       <webElementGuid>81c0b227-e442-49d0-bb9b-208d8341fe06</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -54,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div/div/div/div[4]/a/span</value>
-      <webElementGuid>dd5a8bb5-89af-4cb4-81a7-2cb34ce637bd</webElementGuid>
+      <webElementGuid>ff7df6a0-5fe0-4a93-8c71-d5857984b7e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='schedule'])[1]/following::span[1]</value>
-      <webElementGuid>57ffed6b-f139-4d7c-a785-763a244b22c5</webElementGuid>
+      <webElementGuid>613bf1ef-fc8f-4b90-b111-ea70845f5265</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Master Event'])[1]/following::span[1]</value>
-      <webElementGuid>26de80b3-daf9-4bbd-9826-f6613d8b1227</webElementGuid>
+      <webElementGuid>2c6efc20-9363-486a-9d19-cfe3621cfe93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='person'])[2]/preceding::span[1]</value>
-      <webElementGuid>b2328b1f-b8e4-477e-a1d0-013e5add6d25</webElementGuid>
+      <webElementGuid>d46237ea-1565-44fd-b511-e2ed0f02de70</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Candidate'])[1]/preceding::span[1]</value>
-      <webElementGuid>b344209d-b46e-4681-9da9-82b012c47978</webElementGuid>
+      <webElementGuid>6acf0400-0d83-4c9d-aaaa-3ef2d8fafc1a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Schedule']/parent::*</value>
-      <webElementGuid>a22744a0-9a67-479c-a0e9-4d63722a53d3</webElementGuid>
+      <webElementGuid>2e32afe1-d7a7-4d03-a80f-3df060ba8f12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +134,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/a/span</value>
-      <webElementGuid>9212252b-c82d-454a-b027-ce0169d93c03</webElementGuid>
+      <webElementGuid>4fa52857-b3e2-459b-b47b-01813d4c9d3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +142,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Schedule' or . = 'Schedule')]</value>
-      <webElementGuid>55057fbf-e8bf-49a3-b3ec-3dcc17693ac7</webElementGuid>
+      <webElementGuid>f06281cd-0850-456c-9a93-21223a5aa578</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,12 +6,12 @@
    <elementGuidId>a4a91967-0fea-443e-9600-3fc6a31c5fa8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//select[@id='type']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#type</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='type']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>select</value>
-      <webElementGuid>1661d551-ed62-42e9-81d2-828135afd5fe</webElementGuid>
+      <webElementGuid>36d01dee-88c4-497b-b884-14f282d52cc5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,10 +30,58 @@
       <name>id</name>
       <type>Main</type>
       <value>type</value>
-      <webElementGuid>1d55b32e-58cb-41ad-8515-01704c1bf382</webElementGuid>
+      <webElementGuid>efe0174b-ee38-4daf-ae21-4f00088b4ec4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>type</value>
+      <webElementGuid>8e4b1b6b-8283-4637-8c4d-468997ad2c50</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control mb-2</value>
+      <webElementGuid>ce8230af-a9ee-4707-96b0-735d5d6563a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Expired TimeDuration</value>
+      <webElementGuid>67eccd14-c25c-463d-bebf-08f208268aec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;type&quot;)</value>
+      <webElementGuid>72c5effb-b6b7-4585-862d-0ae2370c1694</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>1661d551-ed62-42e9-81d2-828135afd5fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>type</value>
+      <webElementGuid>1d55b32e-58cb-41ad-8515-01704c1bf382</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
@@ -49,7 +97,7 @@
       <webElementGuid>70c6350e-68d5-4b3f-b6b5-b2684b16259d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -70,7 +118,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//select[@id='type']</value>
-      <webElementGuid>1f98aafc-8e5b-4c89-be2d-bcd892bd5acd</webElementGuid>
+      <webElementGuid>84b87d93-d470-4405-baa2-da7ea0596342</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +126,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/div[3]/div/div[2]/div/div/div/form/div/div[2]/select</value>
-      <webElementGuid>276626a7-fb36-4e26-9c2b-fc35a9e5332c</webElementGuid>
+      <webElementGuid>5d13e7b4-a6a9-48b1-a219-37bed414b685</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Type'])[1]/following::select[1]</value>
-      <webElementGuid>157b65e2-dffc-43e6-af79-51d803820c1b</webElementGuid>
+      <webElementGuid>754d8562-cb38-436c-8066-505ee3c40b00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +142,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Event Name'])[1]/following::select[2]</value>
-      <webElementGuid>f56fee0d-69cd-4e17-9622-26dd528e9a8a</webElementGuid>
+      <webElementGuid>758f243f-2bd8-48f4-9494-0db1893f2837</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +150,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Schedule Name'])[1]/preceding::select[1]</value>
-      <webElementGuid>39dce7d8-48d4-48a8-8e08-60bd4b1bfa9b</webElementGuid>
+      <webElementGuid>fb00c1c8-4e91-4ef3-a0f3-39d8a9950f71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +158,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Date'])[1]/preceding::select[1]</value>
-      <webElementGuid>34bb95f9-7b3c-4f50-825d-958ebd21af95</webElementGuid>
+      <webElementGuid>3504df40-fdf0-4822-a271-f45f7ee14791</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +166,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/select</value>
-      <webElementGuid>71403fbf-0cbc-4074-bda6-e59c9830c023</webElementGuid>
+      <webElementGuid>1a2a573a-d30a-4ee5-89a7-5b6780a3bd0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +174,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//select[@id = 'type' and @name = 'type' and (text() = 'Expired TimeDuration' or . = 'Expired TimeDuration')]</value>
-      <webElementGuid>999d865d-1a52-4c12-8093-5b6f06c2b972</webElementGuid>
+      <webElementGuid>61354c51-ce2d-4467-87bc-cfe76a2c08b2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

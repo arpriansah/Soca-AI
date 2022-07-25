@@ -49,17 +49,17 @@ WebUI.setText(findTestObject('Object Repository/tc43/Page_soca-ai-proctoring-das
 
 WebUI.click(findTestObject('Object Repository/tc43/Page_soca-ai-proctoring-dashboard/label_No date selected'))
 
-WebUI.click(findTestObject('Object Repository/tc43/Page_soca-ai-proctoring-dashboard/span_20'))
+WebUI.click(findTestObject('Object Repository/tc43/Page_soca-ai-proctoring-dashboard/span_21'))
 
 WebUI.click(findTestObject('Object Repository/tc43/Page_soca-ai-proctoring-dashboard/label_No date selected_1'))
 
 WebUI.click(findTestObject('Object Repository/tc43/Page_soca-ai-proctoring-dashboard/span_25'))
 
+WebUI.doubleClick(findTestObject('Object Repository/tc43/Page_soca-ai-proctoring-dashboard/button_No time selected_btn btn-sm border-0_f48676'))
+
 WebUI.click(findTestObject('Object Repository/tc43/Page_soca-ai-proctoring-dashboard/button_No time selected_btn btn-sm border-0_f48676'))
 
-WebUI.click(findTestObject('Object Repository/tc43/Page_soca-ai-proctoring-dashboard/div_01'))
-
-WebUI.doubleClick(findTestObject('Object Repository/tc43/Page_soca-ai-proctoring-dashboard/button_No time selected_btn btn-sm border-0_f48676'))
+WebUI.click(findTestObject('Object Repository/tc43/Page_soca-ai-proctoring-dashboard/button_No time selected_btn btn-sm border-0_f48676'))
 
 WebUI.click(findTestObject('Object Repository/tc43/Page_soca-ai-proctoring-dashboard/button_No time selected_btn btn-sm border-0_f48676'))
 

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_eventMaster Event</name>
+   <tag></tag>
+   <elementGuidId>414b862b-0fdd-4362-9f60-e93624516a87</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/div/div/div/div[3]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c0599aaa-f0f9-4ab8-aa1a-b24447d7e656</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/auth_key/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJleHAiOjc1NTkyNjk4OSwicHJvamVjdHNfaWQiOiIwZDllMmYwZC03ODhjLTRkNGYtNTE3Zi0yNjgxYTVhNGJhN2UifQ.Kt-2qQgAIFs9jIwLXbZ-b2eoeedtMYYVolq2OQVXcYQ/master-event</value>
+      <webElementGuid>7a69c775-869e-451d-b033-712f3c67baee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>eventMaster Event</value>
+      <webElementGuid>668aa359-0544-4f73-9b54-5c6d1fe3305f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;main-wrapper&quot;]/div[@class=&quot;vs-content-sidebar sidebarx&quot;]/div[@class=&quot;vs-sidebar vs-sidebar-primary vs-sidebar-parent&quot;]/div[@class=&quot;vs-sidebar--items&quot;]/div[@class=&quot;vs-sidebar--item&quot;]/a[1]</value>
+      <webElementGuid>4ae8b407-3db8-4fa5-b326-e3e3440184e1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/div/div/div/div[3]/a</value>
+      <webElementGuid>15b27f5d-644d-41a8-ac8f-6d430fda647a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Master Users'])[1]/following::a[1]</value>
+      <webElementGuid>67e5affa-9244-47dd-855d-4cba626b9f3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='person'])[1]/following::a[1]</value>
+      <webElementGuid>24267e49-48dd-4665-8701-a432554d4e91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/auth_key/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJleHAiOjc1NTkyNjk4OSwicHJvamVjdHNfaWQiOiIwZDllMmYwZC03ODhjLTRkNGYtNTE3Zi0yNjgxYTVhNGJhN2UifQ.Kt-2qQgAIFs9jIwLXbZ-b2eoeedtMYYVolq2OQVXcYQ/master-event')]</value>
+      <webElementGuid>8c3bfd43-94ea-4cb9-8820-503b4e67c4eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/a</value>
+      <webElementGuid>15cd8142-70f5-4612-8ac9-3c4a9c03f175</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/auth_key/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhdXRob3JpemVkIjp0cnVlLCJleHAiOjc1NTkyNjk4OSwicHJvamVjdHNfaWQiOiIwZDllMmYwZC03ODhjLTRkNGYtNTE3Zi0yNjgxYTVhNGJhN2UifQ.Kt-2qQgAIFs9jIwLXbZ-b2eoeedtMYYVolq2OQVXcYQ/master-event' and (text() = 'eventMaster Event' or . = 'eventMaster Event')]</value>
+      <webElementGuid>1899633d-6379-4f87-ba0f-f2766d5b75f6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

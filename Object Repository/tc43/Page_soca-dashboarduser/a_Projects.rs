@@ -6,12 +6,12 @@
    <elementGuidId>ff76e7ef-ac54-4938-b32a-97bd8d317fae</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='navbarNavAltMarkup']/ul/li[2]/a</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>li.nav-item.nav-projects > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='navbarNavAltMarkup']/ul/li[2]/a</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>15645675-642e-48be-b34e-4d46097ebb51</webElementGuid>
+      <webElementGuid>11983e6e-007f-40c8-bc2f-480fbf9c8fdb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,10 +30,42 @@
       <name>href</name>
       <type>Main</type>
       <value>/projects/</value>
-      <webElementGuid>2ad546e1-0669-4785-ac5f-f70f65a24b9c</webElementGuid>
+      <webElementGuid>f93c3b37-a269-4a62-be9c-ec4bc2132fe4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Projects </value>
+      <webElementGuid>492fa48c-4656-4237-9c2f-3bee9db2b0cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbarNavAltMarkup&quot;)/ul[@class=&quot;navbar-nav&quot;]/li[@class=&quot;nav-item nav-projects&quot;]/a[1]</value>
+      <webElementGuid>10dc09b1-e625-4004-ae91-db8708230eef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>15645675-642e-48be-b34e-4d46097ebb51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/projects/</value>
+      <webElementGuid>2ad546e1-0669-4785-ac5f-f70f65a24b9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
@@ -54,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='navbarNavAltMarkup']/ul/li[2]/a</value>
-      <webElementGuid>21c2009d-ffda-4032-a9ac-5e779ff98d3d</webElementGuid>
+      <webElementGuid>e60f52ff-df5f-47f7-9c9c-26b68a91bc2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +94,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Projects')]</value>
-      <webElementGuid>0ab1efd3-dcaa-46b0-8115-00b48ad924be</webElementGuid>
+      <webElementGuid>cbbcc50d-6536-46de-b3ce-5f3aa1975ad9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::a[1]</value>
-      <webElementGuid>e79fbb76-a809-42a0-99e8-77beaac35b41</webElementGuid>
+      <webElementGuid>1505c1d3-a51b-4b66-a6df-535488f7cf2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/preceding::a[2]</value>
-      <webElementGuid>fb55018c-9078-473a-8cb5-9b6fa14a2c74</webElementGuid>
+      <webElementGuid>1a0386ee-0c9a-4081-b71a-34f2657e2b54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Logout'])[1]/preceding::a[3]</value>
-      <webElementGuid>9a134207-e0c2-4c41-a328-03df86cb38af</webElementGuid>
+      <webElementGuid>4c31bc3c-81ef-4e53-a9f1-a10c5de273c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Projects']/parent::*</value>
-      <webElementGuid>683f9d50-6dd5-41d1-90db-0c5f5e5ae1a0</webElementGuid>
+      <webElementGuid>f1f97988-045c-4938-a47d-7b91bbe4035e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +134,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/projects/')])[2]</value>
-      <webElementGuid>202c96a1-2b68-4707-ad86-931b1cbd8149</webElementGuid>
+      <webElementGuid>2f5b4d0c-ddd0-4792-ae3e-0ab7145d3e26</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/a</value>
-      <webElementGuid>2c0b0dc7-59d2-4f71-aae2-34b275d8543b</webElementGuid>
+      <webElementGuid>291115be-d260-448f-8872-855652c3ec65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +150,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/projects/' and (text() = ' Projects ' or . = ' Projects ')]</value>
-      <webElementGuid>cad1f3ea-ffd1-4b0f-9be7-a65b0091a596</webElementGuid>
+      <webElementGuid>22db04d9-b5b1-4663-94ea-b91d61aa36e2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
